@@ -1,55 +1,5 @@
 [
   {
-    "path": "12358 WEBSITE/about.md",
-    "title": "about",
-    "file": "about.html"
-  },
-  {
-    "path": "12358 WEBSITE/blog.md",
-    "title": "blog",
-    "file": "blog.html"
-  },
-  {
-    "path": "12358 WEBSITE/clients.md",
-    "title": "clients",
-    "file": "clients.html"
-  },
-  {
-    "path": "12358 WEBSITE/contact.md",
-    "title": "contact",
-    "file": "contact.html"
-  },
-  {
-    "path": "12358 WEBSITE/cookies.md",
-    "title": "cookies",
-    "file": "cookies.html"
-  },
-  {
-    "path": "12358 WEBSITE/index.md",
-    "title": "index",
-    "file": "home.html"
-  },
-  {
-    "path": "12358 WEBSITE/portfolio.md",
-    "title": "portfolio",
-    "file": "portfolio.html"
-  },
-  {
-    "path": "12358 WEBSITE/privacy.md",
-    "title": "privacy",
-    "file": "privacy.html"
-  },
-  {
-    "path": "12358 WEBSITE/services.md",
-    "title": "services",
-    "file": "services.html"
-  },
-  {
-    "path": "12358 WEBSITE/terms.md",
-    "title": "terms",
-    "file": "terms.html"
-  },
-  {
     "path": "ELEMENTS/BLOG/Against all odds.md",
     "title": "Against all odds",
     "file": "Against-all-odds.html"
@@ -133,226 +83,6 @@
     "path": "ELEMENTS/ΕΜΕΙΣ/Κώστας Παλαντάς.md",
     "title": "Κώστας Παλαντάς",
     "file": "Kostas-Paladas.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Βιομηχανία στη Θήβα.md",
-    "title": "Βιομηχανία στη Θήβα",
-    "file": "Viomichania-sti-Thiva.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Βιομηχανία στο Σχημάταρι.md",
-    "title": "Βιομηχανία στο Σχημάταρι",
-    "file": "Viomichania-sto-Schimatari.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Διατηρητέο στα Εξάρχεια.md",
-    "title": "Διατηρητέο στα Εξάρχεια",
-    "file": "Diatiriteo-sta-Exarcheia.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Διπλοκατοικία στα Πετράλωνα.md",
-    "title": "Διπλοκατοικία στα Πετράλωνα",
-    "file": "Diplokatoikia-sta-Petralona.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Διπλοκατοικία στο Πικέρμι.md",
-    "title": "Διπλοκατοικία στο Πικέρμι",
-    "file": "Diplokatoikia-sto-Pikermi.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Εμπορικό κατάστημα στην Αθήνα.md",
-    "title": "Εμπορικό κατάστημα στην Αθήνα",
-    "file": "Eboriko-katastima-stin-Athina.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Εργαστήριο ζυμαρικών στην Αθήνα.md",
-    "title": "Εργαστήριο ζυμαρικών στην Αθήνα",
-    "file": "Ergastirio-zymarikon-stin-Athina.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Εστιατόριο εντός Ξενοδοχείου στην Αθήνα.md",
-    "title": "Εστιατόριο εντός Ξενοδοχείου στην Αθήνα",
-    "file": "Estiatorio-edos-Xenodocheiou-stin-Athina.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Εστιατόριο στην Αθήνα.md",
-    "title": "Εστιατόριο στην Αθήνα",
-    "file": "Estiatorio-stin-Athina.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Εστιατόριο στην Αργυρούπολη.md",
-    "title": "Εστιατόριο στην Αργυρούπολη",
-    "file": "Estiatorio-stin-Argyroupoli.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Εστιατόριο στο Costa Navarino.md",
-    "title": "Εστιατόριο στο Costa Navarino",
-    "file": "Estiatorio-sto-Costa-Navarino.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Ιατρείο στη Γλυφάδα.md",
-    "title": "Ιατρείο στη Γλυφάδα",
-    "file": "Iatreio-sti-Glyfada.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Καφέ μπαρ στον Νέο Κόσμο.md",
-    "title": "Καφέ μπαρ στον Νέο Κόσμο",
-    "file": "Kafe-bar-ston-Neo-Kosmo.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Καφέ μπαρ στου Ζωγράφου.md",
-    "title": "Καφέ μπαρ στου Ζωγράφου",
-    "file": "Kafe-bar-stou-Zografou.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Καφέ σνακ μπαρ στου Ζωγράφου.md",
-    "title": "Καφέ σνακ μπαρ στου Ζωγράφου",
-    "file": "Kafe-snak-bar-stou-Zografou.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Κτίριο Γραφείων στο Ελληνικό.md",
-    "title": "Κτίριο Γραφείων στο Ελληνικό",
-    "file": "Ktirio-Grafeion-sto-Elliniko.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Κτίριο Γραφείων στο Μαρούσι.md",
-    "title": "Κτίριο Γραφείων στο Μαρούσι",
-    "file": "Ktirio-Grafeion-sto-Marousi.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Κτίριο Γραφείων στο Νέο Ηράκλειο 2.md",
-    "title": "Κτίριο Γραφείων στο Νέο Ηράκλειο 2",
-    "file": "Ktirio-Grafeion-sto-Neo-Irakleio-2.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Κτίριο Γραφείων στο Νέο Ηράκλειο.md",
-    "title": "Κτίριο Γραφείων στο Νέο Ηράκλειο",
-    "file": "Ktirio-Grafeion-sto-Neo-Irakleio.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Κτίριο Πρόνοιας στην Αθήνα.md",
-    "title": "Κτίριο Πρόνοιας στην Αθήνα",
-    "file": "Ktirio-Pronoias-stin-Athina.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Κτηνιατρικό εργαστήριο στην Αγία Παρασκευή.md",
-    "title": "Κτηνιατρικό εργαστήριο στην Αγία Παρασκευή",
-    "file": "Ktiniatriko-ergastirio-stin-Agia-Paraskeui.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Μανικιούρ - πεντικιούρ στη Γλυφάδα.md",
-    "title": "Μανικιούρ - πεντικιούρ στη Γλυφάδα",
-    "file": "Manikiour-pedikiour-sti-Glyfada.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Μανικιούρ - πεντικιούρ στη Νέα Σμύρνη.md",
-    "title": "Μανικιούρ - πεντικιούρ στη Νέα Σμύρνη",
-    "file": "Manikiour-pedikiour-sti-Nea-Smyrni.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Μανικιούρ - πεντικιούρ στη Ραφήνα.md",
-    "title": "Μανικιούρ - πεντικιούρ στη Ραφήνα",
-    "file": "Manikiour-pedikiour-sti-Rafina.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Μανικιούρ - πεντικιούρ στο Παλαιό Φάληρο.md",
-    "title": "Μανικιούρ - πεντικιούρ στο Παλαιό Φάληρο",
-    "file": "Manikiour-pedikiour-sto-Palaio-Faliro.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Ξενοδοχείο στην Αθήνα.md",
-    "title": "Ξενοδοχείο στην Αθήνα",
-    "file": "Xenodocheio-stin-Athina.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Παιδότοπος στου Ζωγράφου 2.md",
-    "title": "Παιδότοπος στου Ζωγράφου 2",
-    "file": "Paidotopos-stou-Zografou-2.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Παιδότοπος στου Ζωγράφου.md",
-    "title": "Παιδότοπος στου Ζωγράφου",
-    "file": "Paidotopos-stou-Zografou.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Παλαιό Αστεροσκοπείο Αθηνών.md",
-    "title": "Παλαιό Αστεροσκοπείο Αθηνών",
-    "file": "Palaio-Asteroskopeio-Athinon.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πολυκατοικία στo Ελληνικό.md",
-    "title": "Πολυκατοικία στo Ελληνικό",
-    "file": "Polykatoikia-sto-Elliniko.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πολυκατοικία στo Μαρούσι.md",
-    "title": "Πολυκατοικία στo Μαρούσι",
-    "file": "Polykatoikia-sto-Marousi.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πολυκατοικία στoυ Ζωγράφου 2.md",
-    "title": "Πολυκατοικία στoυ Ζωγράφου 2",
-    "file": "Polykatoikia-stoy-Zografou-2.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πολυκατοικία στoυ Ζωγράφου.md",
-    "title": "Πολυκατοικία στoυ Ζωγράφου",
-    "file": "Polykatoikia-stoy-Zografou.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πολυκατοικία στα Βριλήσσια.md",
-    "title": "Πολυκατοικία στα Βριλήσσια",
-    "file": "Polykatoikia-sta-Vrilissia.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πολυκατοικία στη Γλυφάδα.md",
-    "title": "Πολυκατοικία στη Γλυφάδα",
-    "file": "Polykatoikia-sti-Glyfada.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πολυκατοικία στην Ηλιούπολη 2.md",
-    "title": "Πολυκατοικία στην Ηλιούπολη 2",
-    "file": "Polykatoikia-stin-Ilioupoli-2.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πολυκατοικία στην Ηλιούπολη.md",
-    "title": "Πολυκατοικία στην Ηλιούπολη",
-    "file": "Polykatoikia-stin-Ilioupoli.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Πρότυπος οικίσκος.md",
-    "title": "Πρότυπος οικίσκος",
-    "file": "Protypos-oikiskos.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Σχολή χορού στα Μελίσσια.md",
-    "title": "Σχολή χορού στα Μελίσσια",
-    "file": "Scholi-chorou-sta-Melissia.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Σχολή χορού στην Ηλιούπολη.md",
-    "title": "Σχολή χορού στην Ηλιούπολη",
-    "file": "Scholi-chorou-stin-Ilioupoli.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Σχολή χορού στου Ζωγράφου.md",
-    "title": "Σχολή χορού στου Ζωγράφου",
-    "file": "Scholi-chorou-stou-Zografou.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Φούρνος στη Γλυφάδα.md",
-    "title": "Φούρνος στη Γλυφάδα",
-    "file": "Fournos-sti-Glyfada.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Φούρνος στην Αθήνα.md",
-    "title": "Φούρνος στην Αθήνα",
-    "file": "Fournos-stin-Athina.html"
-  },
-  {
-    "path": "ELEMENTS/ΕΡΓΑ/Φυσιοθεραπευτήριο στον Βύρωνα.md",
-    "title": "Φυσιοθεραπευτήριο στον Βύρωνα",
-    "file": "Fysiotherapeutirio-ston-Vyrona.html"
   },
   {
     "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Άδειες λειτουργίας.md",
@@ -448,5 +178,50 @@
     "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Τοπογραφικά.md",
     "title": "Τοπογραφικά",
     "file": "Topografika.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/about.md",
+    "title": "about",
+    "file": "about.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/blog.md",
+    "title": "blog",
+    "file": "blog.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/clients.md",
+    "title": "clients",
+    "file": "clients.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/contact.md",
+    "title": "contact",
+    "file": "contact.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/cookies.md",
+    "title": "cookies",
+    "file": "cookies.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/index.md",
+    "title": "index",
+    "file": "home.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/privacy.md",
+    "title": "privacy",
+    "file": "privacy.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/services.md",
+    "title": "services",
+    "file": "services.html"
+  },
+  {
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/terms.md",
+    "title": "terms",
+    "file": "terms.html"
   }
 ]

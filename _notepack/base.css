@@ -1077,7 +1077,6 @@ footer.np-footer {
   }
 }
 
-
 /* ===== INJECTED CUSTOM CSS ===== */
 /* =========================================
    ΒΗΜΑ 1 & 2: DARK MODE, SIDEBAR ΚΑΙ ΠΛΑΤΟΣ
@@ -1089,7 +1088,7 @@ footer.np-footer {
     --np-color-text: #e0e0e0 !important;
     --np-color-text-muted: #a0a0a0 !important;
     --np-color-border: #444444 !important;
-    --np-color-accent: #069494 !important; 
+    --np-color-accent: #ff8c00 !important; 
     --np-page-max-width-wide: 60rem !important; 
 }
 
@@ -1148,7 +1147,7 @@ table.np-props,
 .np-hsec.np-folded > .np-hsec-body { display: block !important; }
 
 /* =========================================
-   ΤΟ ΜΕΓΑΛΟ ΒΗΜΑ: STICKY BANNER & MENU
+   ΤΟ ΜΕΓΑΛΟ ΒΗΜΑ: STICKY BANNER & MENU (ΜΕ SLIDER)
    ========================================= */
 
 #center-content > .obsidian-document {
@@ -1165,47 +1164,57 @@ table.np-props,
     contain: none !important; 
 }
 
-/* 1. Καρφιτσώνουμε ΟΛΟ το πρώτο <p> ΜΟΝΟ αν περιέχει το banner */
-.np-note-content > p:first-of-type:has(> span.internal-embed) {
+/* 1. Η παράγραφος που θα γίνει Sticky (το προσθέτει αυτόματα το JavaScript) */
+.is-sticky-banner {
     position: -webkit-sticky !important;
     position: sticky !important;
     top: 0 !important;
     z-index: 1000 !important;
-    
     background-color: #1e1e1e !important; 
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
-    
     text-align: center !important;
+    display: block !important;
 }
 
-/* 2. Η Εικόνα (Banner) χωρίς ζουμ */
-.np-note-content > p:first-of-type span.internal-embed {
+/* 2. Οι Εικόνες του Banner */
+.is-sticky-banner span.internal-embed {
     display: block !important;
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
+    
+    /* Slider Logic */
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Όλες οι εικόνες ξεκινούν αόρατες */
+    transition: opacity 1s ease-in-out !important;
+    z-index: 1;
 }
 
-.np-note-content > p:first-of-type img {
+/* Η πρώτη εικόνα καθορίζει το ύψος του container, αλλά μένει αόρατη */
+.is-sticky-banner span.internal-embed:first-of-type {
+    position: relative !important;
+    opacity: 0; 
+    z-index: 1;
+}
+
+/* Η ενεργή εικόνα (αυτή που φαίνεται) */
+.is-sticky-banner span.internal-embed.banner-active {
+    opacity: 1 !important;
+    z-index: 2 !important;
+}
+
+.is-sticky-banner img {
     width: 100% !important;
     height: auto !important; 
     display: block !important;
     border-radius: 0 !important;
 }
 
-/* 3. Το Μενού (Τα links κάτω από το <br>) */
-.np-note-content > p:first-of-type:has(> span.internal-embed) a,
-.np-note-content > p:first-of-type:has(> span.internal-embed) span.np-link-out {
-    display: inline-block !important;
-    margin: 1rem 0.3rem !important; 
-    color: var(--np-color-accent) !important;
-    font-weight: 500 !important;
-    text-decoration: none !important;
-}
-
-/* 4. Γενικός κανόνας για ΟΛΑ τα links μέσα στο κείμενο */
+/* 3. Γενικός κανόνας για ΟΛΑ τα links */
 .np-note-content a {
     color: var(--np-color-accent) !important;
 }
@@ -1253,11 +1262,10 @@ table.np-props,
     position: relative;
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
     display: flex;
-    flex-direction: column; /* Για να μπει ο τίτλος πάνω από το iframe */
+    flex-direction: column; 
     overflow: hidden;
 }
 
-/* ΝΕΟ: Header του Modal */
 #custom-modal-header {
     display: flex;
     justify-content: space-between;
@@ -1284,12 +1292,12 @@ table.np-props,
 }
 
 #custom-modal-close:hover {
-    color: #069494;
+    color: #ff8c00;
 }
 
 #custom-modal-iframe {
     width: 100%;
-    flex-grow: 1; /* Παίρνει όλο το υπόλοιπο ύψος */
+    flex-grow: 1; 
     border: none;
     background-color: #1e1e1e;
 }
@@ -1298,7 +1306,6 @@ table.np-props,
    ΒΗΜΑ 9: EMBED MODE (ΓΙΑ ΤΟ POPUP)
    ========================================= */
 
-/* 1. Κρύβουμε την πάνω μπάρα (HOME), το footer και τα properties */
 body.is-embed .np-topbar,
 body.is-embed .np-footer,
 body.is-embed .np-props,
@@ -1308,16 +1315,14 @@ body.is-embed > .np-meta {
     display: none !important;
 }
 
-/* 2. Η ΜΑΓΙΚΗ ΔΙΟΡΘΩΣΗ: Απενεργοποιούμε το sticky banner μέσα στο modal! */
-body.is-embed .np-note-content > p:first-of-type:has(> span.internal-embed) {
-    position: static !important; /* Σταματάει να καρφιτσώνεται */
-    background-color: transparent !important; /* Αφαιρεί το μαύρο φόντο */
-    z-index: auto !important; /* Σταματάει να καλύπτει το κείμενο */
+body.is-embed .is-sticky-banner {
+    position: static !important; 
+    background-color: transparent !important; 
+    z-index: auto !important; 
     margin: 0 !important;
     padding: 0 !important;
 }
 
-/* 3. Καθαρίζουμε τα περιθώρια του modal */
 body.is-embed {
     margin: 0 !important;
     padding: 0 !important;
@@ -1336,7 +1341,6 @@ body.is-embed .markdown-preview-sizer {
     padding: 0 !important;
 }
 
-/* Οι εικόνες δεν ξεφεύγουν από το πλάτος */
 body.is-embed img {
     max-width: 100% !important;
     height: auto !important;
@@ -1376,7 +1380,7 @@ body.is-embed img {
 
 .custom-filter-btn.active {
     background-color: var(--np-color-accent);
-    color: #1e1e1e; /* Σκούρο κείμενο για αντίθεση */
+    color: #1e1e1e; 
     border-color: var(--np-color-accent);
     font-weight: 700;
 }
@@ -1385,46 +1389,51 @@ body.is-embed img {
    ΒΗΜΑ 11: ΑΛΛΑΓΗ ΚΕΦΑΛΙΔΑΣ "file name" ΣΤΟΥΣ ΠΙΝΑΚΕΣ BASE
    ========================================= */
 
-/* --- ΕΠΙΛΟΓΗ 1: Αλλαγή του "file name" σε "Ονομασία" --- */
 .np-table th:first-child {
-    font-size: 0 !important; /* Κρύβει την προεπιλεγμένη λέξη */
+    font-size: 0 !important; 
 }
 
 .np-table th:first-child::after {
-    content: "Ονομασία" !important; /* Βάζει τη νέα λέξη */
+    content: "Ονομασία" !important; 
     font-size: 0.9rem !important; 
     color: var(--np-color-text-muted) !important;
     font-weight: 500 !important;
 }
 
-/* --- ΕΠΙΛΟΓΗ 2: Πλήρης απόκρυψη της κεφαλίδας --- */
-/* Αν θέλεις να εξαφανίσεις τελείως τη γραμμή με το "file name", 
-   σβήσε το αστεράκι και το / από την αρχή των επόμενων δύο γραμμών: */
-/*
+/* 
 .np-table thead {
     display: none !important;
 }
-*//* =========================================
-   ΒΗΜΑ 11: ΑΛΛΑΓΗ ΚΕΦΑΛΙΔΑΣ "file name" ΣΤΟΥΣ ΠΙΝΑΚΕΣ BASE
+*/ 
+
+/* =========================================
+   ΒΗΜΑ 12: ΣΤΥΛ ΓΙΑ ΤΟ ΠΕΔΙΟ ΑΝΑΖΗΤΗΣΗΣ
    ========================================= */
-
-/* --- ΕΠΙΛΟΓΗ 1: Αλλαγή του "file name" σε "Ονομασία" --- */
-.np-table th:first-child {
-    font-size: 0 !important; /* Κρύβει την προεπιλεγμένη λέξη */
+.custom-search-container {
+    margin-bottom: 15px;
+    width: 100%;
 }
 
-.np-table th:first-child::after {
-    content: "Ονομασία" !important; /* Βάζει τη νέα λέξη */
-    font-size: 0.9rem !important; 
-    color: var(--np-color-text-muted) !important;
-    font-weight: 500 !important;
+.custom-search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    border: 1px solid var(--np-color-border);
+    border-radius: 30px;
+    background-color: var(--np-color-bg-subtle);
+    color: var(--np-color-text);
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
 }
 
-/* --- ΕΠΙΛΟΓΗ 2: Πλήρης απόκρυψη της κεφαλίδας --- */
-/* Αν θέλεις να εξαφανίσεις τελείως τη γραμμή με το "file name", 
-   σβήσε το αστεράκι και το / από την αρχή των επόμενων δύο γραμμών: */
-/*
-.np-table thead {
-    display: none !important;
+.custom-search-input:focus {
+    border-color: var(--np-color-accent);
+    box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.2); 
 }
-*/
+
+.custom-search-input::placeholder {
+    color: var(--np-color-text-muted);
+}
