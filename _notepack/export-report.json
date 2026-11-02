@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-02T14:20:28.635Z",
+  "startedAt": "2026-11-02T18:24:32.465Z",
   "manifestVersion": "0.18.6",
   "scopeTitle": "METRISI-AKTINOVOLIAS WEBSITE",
   "exportMode": "local",
@@ -67,7 +67,6 @@
       "embedSpanCount": 0,
       "noteEmbeds": [],
       "topLevelTags": [
-        "h3",
         "p",
         "p",
         "p",
@@ -86,7 +85,7 @@
         "p",
         "p"
       ],
-      "foldableSections": 2
+      "foldableSections": 1
     },
     {
       "path": "ELEMENTS/BLOG/Ηλεκτρικά αυτοκίνητα.md",
@@ -95,7 +94,6 @@
       "embedSpanCount": 0,
       "noteEmbeds": [],
       "topLevelTags": [
-        "h3",
         "p",
         "p",
         "h3",
@@ -123,7 +121,7 @@
         "p",
         "p"
       ],
-      "foldableSections": 6
+      "foldableSections": 5
     },
     {
       "path": "ELEMENTS/BLOG/Οι κτιριακοί βιολόγοι της Γερμανίας (Bau Biology).md",
@@ -132,7 +130,33 @@
       "embedSpanCount": 0,
       "noteEmbeds": [],
       "topLevelTags": [
+        "p",
+        "p",
         "h3",
+        "p",
+        "p",
+        "p",
+        "p"
+      ],
+      "foldableSections": 1
+    },
+    {
+      "path": "ELEMENTS/BLOG/Ραδιενέργεια.md",
+      "links": [],
+      "images": [],
+      "embedSpanCount": 0,
+      "noteEmbeds": [],
+      "topLevelTags": [
+        "p",
+        "p",
+        "h3",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
         "p",
         "p",
         "h3",
@@ -144,59 +168,30 @@
       "foldableSections": 2
     },
     {
-      "path": "ELEMENTS/BLOG/Ραδιενέργεια.md",
-      "links": [],
-      "images": [],
-      "embedSpanCount": 0,
-      "noteEmbeds": [],
-      "topLevelTags": [
-        "h3",
-        "p",
-        "p",
-        "h3",
-        "p",
-        "p",
-        "p",
-        "p",
-        "p",
-        "p",
-        "p",
-        "p",
-        "p",
-        "h3",
-        "p",
-        "p",
-        "p",
-        "p"
-      ],
-      "foldableSections": 3
-    },
-    {
       "path": "ELEMENTS/BLOG/Τι μετράμε σε ένα γραφείο.md",
       "links": [],
       "images": [],
       "embedSpanCount": 0,
       "noteEmbeds": [],
       "topLevelTags": [
-        "h3",
-        "p",
-        "p",
-        "p",
-        "h3",
-        "p",
-        "p",
-        "p",
-        "h3",
         "p",
         "p",
         "p",
         "p",
-        "h3",
         "p",
         "p",
         "p",
         "p",
-        "h3",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
         "p",
         "p",
         "p",
@@ -206,7 +201,7 @@
         "p",
         "p"
       ],
-      "foldableSections": 6
+      "foldableSections": 1
     },
     {
       "path": "ELEMENTS/BLOG/Τι μετράμε σε μια κατοικία.md",
@@ -215,24 +210,23 @@
       "embedSpanCount": 0,
       "noteEmbeds": [],
       "topLevelTags": [
-        "h3",
-        "p",
-        "p",
-        "p",
-        "h3",
-        "p",
-        "p",
-        "p",
-        "h3",
-        "p",
-        "p",
-        "p",
-        "h3",
         "p",
         "p",
         "p",
         "p",
-        "h3",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
         "p",
         "p",
         "p",
@@ -242,7 +236,7 @@
         "p",
         "p"
       ],
-      "foldableSections": 6
+      "foldableSections": 1
     },
     {
       "path": "ELEMENTS/BLOG/Τι σημαίνει το 12358;.md",
@@ -484,7 +478,7 @@
     },
     {
       "path": "METRISI-AKTINOVOLIAS WEBSITE/about.md",
-      "embedWaitMs": 0,
+      "embedWaitMs": 250,
       "embedMatched": 1,
       "embedExpected": 1,
       "embedSrcs": [
@@ -600,28 +594,28 @@
         },
         {
           "originalSrc": "../assets/asset-2b8be58a.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-2b8be58a.webp",
-          "asset": "asset-d009368f.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-2b8be58a.webp",
+          "asset": "asset-be45b4f9.webp"
         },
         {
           "originalSrc": "../assets/asset-4b3dcd94.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-4b3dcd94.webp",
-          "asset": "asset-3609fd43.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-4b3dcd94.webp",
+          "asset": "asset-14a5ea3d.webp"
         },
         {
           "originalSrc": "../assets/asset-2c30ead7.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-2c30ead7.webp",
-          "asset": "asset-63024d9b.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-2c30ead7.webp",
+          "asset": "asset-00797c69.webp"
         },
         {
           "originalSrc": "../assets/asset-49490864.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-49490864.webp",
-          "asset": "asset-08cf4628.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-49490864.webp",
+          "asset": "asset-fe3af22a.webp"
         },
         {
           "originalSrc": "../assets/asset-3a6987c1.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-3a6987c1.webp",
-          "asset": "asset-1b6aedb6.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-3a6987c1.webp",
+          "asset": "asset-2e78b64c.webp"
         },
         {
           "originalSrc": "app://9007ec4e60df6ab51ae60b66cd0ffc231c12/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/greview.webp?1792799591294",
@@ -766,38 +760,38 @@
         },
         {
           "originalSrc": "../assets/asset-ae2e5dc3.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-ae2e5dc3.webp",
-          "asset": "asset-ada6e9a2.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-ae2e5dc3.webp",
+          "asset": "asset-5375aa54.webp"
         },
         {
           "originalSrc": "../assets/asset-d24c8604.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-d24c8604.webp",
-          "asset": "asset-65669465.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-d24c8604.webp",
+          "asset": "asset-e3f77327.webp"
         },
         {
           "originalSrc": "../assets/asset-b95c387e.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-b95c387e.webp",
-          "asset": "asset-b4201ac0.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-b95c387e.webp",
+          "asset": "asset-fce0b076.webp"
         },
         {
           "originalSrc": "../assets/asset-c5392d63.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-c5392d63.webp",
-          "asset": "asset-1f866421.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-c5392d63.webp",
+          "asset": "asset-58dc18c3.webp"
         },
         {
           "originalSrc": "../assets/asset-11bff40e.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-11bff40e.webp",
-          "asset": "asset-ea9c861f.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-11bff40e.webp",
+          "asset": "asset-84ca3101.webp"
         },
         {
           "originalSrc": "../assets/asset-ee734029.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-ee734029.webp",
-          "asset": "asset-7a833f85.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-ee734029.webp",
+          "asset": "asset-b559cb57.webp"
         },
         {
           "originalSrc": "../assets/asset-625577df.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261102-162028/assets/asset-625577df.webp",
-          "asset": "asset-91476c08.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261102-202432/assets/asset-625577df.webp",
+          "asset": "asset-0ebbf562.webp"
         },
         {
           "originalSrc": "app://9007ec4e60df6ab51ae60b66cd0ffc231c12/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
