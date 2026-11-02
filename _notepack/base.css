@@ -1178,7 +1178,7 @@ table.np-props,
     text-align: center !important;
     display: block !important;
     
-    /* ΝΕΟ: Δεσμεύει χώρο 785:272 πριν φορτώσουν οι εικόνες για να μην πηδάει το κείμενο (CLS) */
+    /* Δεσμεύει χώρο 785:272 πριν φορτώσουν οι εικόνες για να μην πηδάει το κείμενο (CLS) */
     aspect-ratio: 785 / 272; 
     overflow: hidden;
 }
@@ -1187,7 +1187,7 @@ table.np-props,
 .is-sticky-banner span.internal-embed {
     display: block !important;
     width: 100% !important;
-    height: 100% !important; /* ΝΕΟ: Για να γεμίζει το ύψος */
+    height: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
     
@@ -1215,8 +1215,8 @@ table.np-props,
 
 .is-sticky-banner img {
     width: 100% !important;
-    height: 100% !important; /* ΝΕΟ: Για να γεμίζει το ύψος του aspect-ratio */
-    object-fit: cover !important; /* ΝΕΟ: Κόβει λίγο τα άκρα αν χρειαστεί, αλλά δεν παραμορφώνει */
+    height: 100% !important; 
+    object-fit: cover !important; 
     display: block !important;
     border-radius: 0 !important;
 }
@@ -1242,6 +1242,13 @@ table.np-props,
     font-weight: 400 !important;
     margin: 0.5rem 0 !important;
     line-height: 1.2 !important;
+}
+
+/* ΝΕΟ: Διόρθωση Layout Shift (CLS) στις εικόνες των καρτών (Blog) */
+.np-card img {
+    aspect-ratio: 16 / 9 !important; /* Δεσμεύει χώρο πριν φορτώσει η εικόνα */
+    object-fit: cover !important;
+    width: 100% !important;
 }
 
 /* =========================================
