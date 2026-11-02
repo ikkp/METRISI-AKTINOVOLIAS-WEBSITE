@@ -1077,7 +1077,6 @@ footer.np-footer {
   }
 }
 
-
 /* ===== INJECTED CUSTOM CSS ===== */
 /* =========================================
    ΒΗΜΑ 1 & 2: DARK MODE, SIDEBAR ΚΑΙ ΠΛΑΤΟΣ
@@ -1165,7 +1164,7 @@ table.np-props,
     contain: none !important; 
 }
 
-/* 1. Η παράγραφος που θα γίνει Sticky (το προσθέτει αυτόματα το JavaScript) */
+/* 1. Η παράγραφος που θα γίνει Sticky */
 .is-sticky-banner {
     position: -webkit-sticky !important;
     position: sticky !important;
@@ -1177,8 +1176,6 @@ table.np-props,
     padding: 0 !important;
     text-align: center !important;
     display: block !important;
-    
-    /* Δεσμεύει χώρο 785:272 πριν φορτώσουν οι εικόνες για να μην πηδάει το κείμενο (CLS) */
     aspect-ratio: 785 / 272; 
     overflow: hidden;
 }
@@ -1187,27 +1184,23 @@ table.np-props,
 .is-sticky-banner span.internal-embed {
     display: block !important;
     width: 100% !important;
-    height: 100% !important;
+    height: 100% !important; 
     margin: 0 !important;
     padding: 0 !important;
-    
-    /* Slider Logic */
     position: absolute !important;
     top: 0;
     left: 0;
-    opacity: 0; /* Όλες οι εικόνες ξεκινούν αόρατες */
+    opacity: 0; 
     transition: opacity 1s ease-in-out !important;
     z-index: 1;
 }
 
-/* Η πρώτη εικόνα καθορίζει το ύψος του container, αλλά μένει αόρατη */
 .is-sticky-banner span.internal-embed:first-of-type {
     position: relative !important;
     opacity: 0; 
     z-index: 1;
 }
 
-/* Η ενεργή εικόνα (αυτή που φαίνεται) */
 .is-sticky-banner span.internal-embed.banner-active {
     opacity: 1 !important;
     z-index: 2 !important;
@@ -1244,9 +1237,8 @@ table.np-props,
     line-height: 1.2 !important;
 }
 
-/* ΝΕΟ: Διόρθωση Layout Shift (CLS) στις εικόνες των καρτών (Blog) */
 .np-card img {
-    aspect-ratio: 16 / 9 !important; /* Δεσμεύει χώρο πριν φορτώσει η εικόνα */
+    aspect-ratio: 16 / 9 !important; 
     object-fit: cover !important;
     width: 100% !important;
 }
@@ -1335,14 +1327,14 @@ body.is-embed .is-sticky-banner {
     z-index: auto !important; 
     margin: 0 !important;
     padding: 0 !important;
-    aspect-ratio: auto !important; /* Επαναφορά στο modal */
+    aspect-ratio: auto !important; 
     height: auto !important;
 }
 
 body.is-embed .is-sticky-banner span.internal-embed {
     height: auto !important;
     position: relative !important;
-    opacity: 1 !important; /* Εμφάνιση όλων των εικόνων στο modal */
+    opacity: 1 !important; 
     display: inline-block !important;
     margin-bottom: 10px !important;
 }
@@ -1465,4 +1457,24 @@ body.is-embed img {
 
 .custom-search-input::placeholder {
     color: var(--np-color-text-muted);
+}
+
+/* =========================================
+   ΒΗΜΑ 13: FIX LAYOUT SHIFT (CLS) - ΟΙ ΠΡΑΓΜΑΤΙΚΟΙ ΕΝΟΧΟΙ
+   ========================================= */
+
+/* 1. Οι εικόνες του Banner (cover1, cover2 κλπ) */
+.np-note-content img[src*="cover"] {
+    aspect-ratio: 785 / 272 !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    display: block !important;
+}
+
+/* 2. Το λογότυπο της IRIA (και οποιοδήποτε άλλο logo) */
+.np-note-content img[alt*="logo"], 
+img[src*="asset"] {
+    aspect-ratio: 1 / 1 !important;
+    height: auto !important;
 }
