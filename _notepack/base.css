@@ -1164,7 +1164,16 @@ table.np-props,
     contain: none !important; 
 }
 
-/* 1. Η παράγραφος που θα γίνει Sticky */
+/* 1. Δέσμευση χώρου για το banner (CLS Fix) - Πριν καν τρέξει το JS */
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) {
+    aspect-ratio: 785 / 272 !important;
+    overflow: hidden !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 2. Το Sticky Banner (όταν το JS προσθέσει την κλάση) */
 .is-sticky-banner {
     position: -webkit-sticky !important;
     position: sticky !important;
@@ -1180,8 +1189,9 @@ table.np-props,
     overflow: hidden;
 }
 
-/* 2. Οι Εικόνες του Banner */
-.is-sticky-banner span.internal-embed {
+/* 3. Οι Εικόνες του Banner (επαναφορά στο σωστό layout) */
+.is-sticky-banner span.internal-embed,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed {
     display: block !important;
     width: 100% !important;
     height: 100% !important; 
@@ -1195,18 +1205,21 @@ table.np-props,
     z-index: 1;
 }
 
-.is-sticky-banner span.internal-embed:first-of-type {
+.is-sticky-banner span.internal-embed:first-of-type,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed:first-of-type {
     position: relative !important;
     opacity: 0; 
     z-index: 1;
 }
 
-.is-sticky-banner span.internal-embed.banner-active {
+.is-sticky-banner span.internal-embed.banner-active,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed.banner-active {
     opacity: 1 !important;
     z-index: 2 !important;
 }
 
-.is-sticky-banner img {
+.is-sticky-banner img,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) img {
     width: 100% !important;
     height: 100% !important; 
     object-fit: cover !important; 
@@ -1214,7 +1227,7 @@ table.np-props,
     border-radius: 0 !important;
 }
 
-/* 3. Γενικός κανόνας για ΟΛΑ τα links */
+/* 4. Γενικός κανόνας για ΟΛΑ τα links */
 .np-note-content a {
     color: var(--np-color-accent) !important;
 }
@@ -1321,7 +1334,8 @@ body.is-embed > .np-meta {
     display: none !important;
 }
 
-body.is-embed .is-sticky-banner {
+body.is-embed .is-sticky-banner,
+body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) {
     position: static !important; 
     background-color: transparent !important; 
     z-index: auto !important; 
@@ -1331,7 +1345,8 @@ body.is-embed .is-sticky-banner {
     height: auto !important;
 }
 
-body.is-embed .is-sticky-banner span.internal-embed {
+body.is-embed .is-sticky-banner span.internal-embed,
+body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed {
     height: auto !important;
     position: relative !important;
     opacity: 1 !important; 
@@ -1339,7 +1354,8 @@ body.is-embed .is-sticky-banner span.internal-embed {
     margin-bottom: 10px !important;
 }
 
-body.is-embed .is-sticky-banner img {
+body.is-embed .is-sticky-banner img,
+body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) img {
     height: auto !important;
     object-fit: contain !important;
 }
@@ -1460,19 +1476,8 @@ body.is-embed img {
 }
 
 /* =========================================
-   ΒΗΜΑ 13: FIX LAYOUT SHIFT (CLS) - ΟΙ ΠΡΑΓΜΑΤΙΚΟΙ ΕΝΟΧΟΙ
+   ΒΗΜΑ 13: FIX LAYOUT SHIFT (CLS) ΓΙΑ ΤΟ ΛΟΓΟΤΥΠΟ
    ========================================= */
-
-/* 1. Οι εικόνες του Banner (cover1, cover2 κλπ) */
-.np-note-content img[src*="cover"] {
-    aspect-ratio: 785 / 272 !important;
-    width: 100% !important;
-    height: auto !important;
-    object-fit: cover !important;
-    display: block !important;
-}
-
-/* 2. Το λογότυπο της IRIA (και οποιοδήποτε άλλο logo) */
 .np-note-content img[alt*="logo"], 
 img[src*="asset"] {
     aspect-ratio: 1 / 1 !important;
