@@ -1,63 +1,38 @@
 [
   {
-    "path": "ELEMENTS/BLOG/Against all odds.md",
-    "title": "Against all odds",
-    "file": "Against-all-odds.html"
+    "path": "ELEMENTS/BLOG/Βελτίωση στην κατοικία.md",
+    "title": "Βελτίωση στην κατοικία",
+    "file": "Veltiosi-stin-katoikia.html"
   },
   {
-    "path": "ELEMENTS/BLOG/Still standing.md",
-    "title": "Still standing",
-    "file": "Still-standing.html"
+    "path": "ELEMENTS/BLOG/Ηλεκτρικά αυτοκίνητα.md",
+    "title": "Ηλεκτρικά αυτοκίνητα",
+    "file": "Ilektrika-autokinita.html"
   },
   {
-    "path": "ELEMENTS/BLOG/Δεν ταυτιζόμαστε.md",
-    "title": "Δεν ταυτιζόμαστε",
-    "file": "Den-tautizomaste.html"
+    "path": "ELEMENTS/BLOG/Οι κτιριακοί βιολόγοι της Γερμανίας (Bau Biology).md",
+    "title": "Οι κτιριακοί βιολόγοι της Γερμανίας (Bau Biology)",
+    "file": "Oi-ktiriakoi-viologoi-tis-Germanias-Bau-Biology.html"
   },
   {
-    "path": "ELEMENTS/BLOG/Δυστοπία.md",
-    "title": "Δυστοπία",
-    "file": "Dystopia.html"
+    "path": "ELEMENTS/BLOG/Ραδιενέργεια.md",
+    "title": "Ραδιενέργεια",
+    "file": "Radienergeia.html"
   },
   {
-    "path": "ELEMENTS/BLOG/Ενεργειακό πιστοποιητικό (ΠΕΑ).md",
-    "title": "Ενεργειακό πιστοποιητικό (ΠΕΑ)",
-    "file": "Energeiako-pistopoiitiko-PEA.html"
+    "path": "ELEMENTS/BLOG/Τι μετράμε σε ένα γραφείο.md",
+    "title": "Τι μετράμε σε ένα γραφείο",
+    "file": "Ti-metrame-se-ena-grafeio.html"
   },
   {
-    "path": "ELEMENTS/BLOG/Ηλεκτρονική ταυτότητα.md",
-    "title": "Ηλεκτρονική ταυτότητα",
-    "file": "Ilektroniki-tautotita.html"
-  },
-  {
-    "path": "ELEMENTS/BLOG/Μισακό.md",
-    "title": "Μισακό",
-    "file": "Misako.html"
-  },
-  {
-    "path": "ELEMENTS/BLOG/Ξανά.md",
-    "title": "Ξανά",
-    "file": "Xana.html"
-  },
-  {
-    "path": "ELEMENTS/BLOG/Παράθυρο με θέα.md",
-    "title": "Παράθυρο με θέα",
-    "file": "Parathyro-me-thea.html"
-  },
-  {
-    "path": "ELEMENTS/BLOG/Τακτοποίηση αυθαιρέτων.md",
-    "title": "Τακτοποίηση αυθαιρέτων",
-    "file": "Taktopoiisi-authaireton.html"
+    "path": "ELEMENTS/BLOG/Τι μετράμε σε μια κατοικία.md",
+    "title": "Τι μετράμε σε μια κατοικία",
+    "file": "Ti-metrame-se-mia-katoikia.html"
   },
   {
     "path": "ELEMENTS/BLOG/Τι σημαίνει το 12358;.md",
     "title": "Τι σημαίνει το 12358;",
     "file": "Ti-simainei-to-12358.html"
-  },
-  {
-    "path": "ELEMENTS/BLOG/Φαντάσματα του παρελθόντος.md",
-    "title": "Φαντάσματα του παρελθόντος",
-    "file": "Fadasmata-tou-parelthodos.html"
   },
   {
     "path": "ELEMENTS/ΕΜΕΙΣ/Άννα Κόκα.md",
@@ -83,101 +58,6 @@
     "path": "ELEMENTS/ΕΜΕΙΣ/Κώστας Παλαντάς.md",
     "title": "Κώστας Παλαντάς",
     "file": "Kostas-Paladas.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Άδειες λειτουργίας.md",
-    "title": "Άδειες λειτουργίας",
-    "file": "Adeies-leitourgias.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Άδειες μικρής κλίμακας (ΕΕΔΜΚ).md",
-    "title": "Άδειες μικρής κλίμακας (ΕΕΔΜΚ)",
-    "file": "Adeies-mikris-klimakas-EEDMK.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Ανακαίνιση.md",
-    "title": "Ανακαίνιση",
-    "file": "Anakainisi.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Αρχιτεκτονικές μελέτες.md",
-    "title": "Αρχιτεκτονικές μελέτες",
-    "file": "Architektonikes-meletes.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Αυθαίρετα (Υπαγωγή, Τακτοποίηση, Ρύθμιση).md",
-    "title": "Αυθαίρετα (Υπαγωγή, Τακτοποίηση, Ρύθμιση)",
-    "file": "Authaireta-Ypagogi-Taktopoiisi-Rythmisi.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Αυτοψίες.md",
-    "title": "Αυτοψίες",
-    "file": "Autopsies.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Διακόσμηση.md",
-    "title": "Διακόσμηση",
-    "file": "Diakosmisi.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Εκτίμηση επαγγελματικού κινδύνου.md",
-    "title": "Εκτίμηση επαγγελματικού κινδύνου",
-    "file": "Ektimisi-epangelmatikou-kindynou.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Ενεργειακά πιστοποιητικά (ΠΕΑ).md",
-    "title": "Ενεργειακά πιστοποιητικά (ΠΕΑ)",
-    "file": "Energeiaka-pistopoiitika-PEA.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Επίβλεψη.md",
-    "title": "Επίβλεψη",
-    "file": "Epivlepsi.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Ηλεκτρομηχανολογικές μελέτες.md",
-    "title": "Ηλεκτρομηχανολογικές μελέτες",
-    "file": "Ilektromichanologikes-meletes.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Ηλεκτρονική ταυτότητα κτιρίου - ακινήτου (ΗΤΚ - ΗΤΑ).md",
-    "title": "Ηλεκτρονική ταυτότητα κτιρίου - ακινήτου (ΗΤΚ - ΗΤΑ)",
-    "file": "Ilektroniki-tautotita-ktiriou-akinitou-ITK-ITA.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Κατασκευή.md",
-    "title": "Κατασκευή",
-    "file": "Kataskeui.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Μέτρηση ακτινοβολίας.md",
-    "title": "Μέτρηση ακτινοβολίας",
-    "file": "Metrisi-aktinovolias.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Οικοδομικές άδειες.md",
-    "title": "Οικοδομικές άδειες",
-    "file": "Oikodomikes-adeies.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Στατικές μελέτες.md",
-    "title": "Στατικές μελέτες",
-    "file": "Statikes-meletes.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Τεχνικές εκθέσεις.md",
-    "title": "Τεχνικές εκθέσεις",
-    "file": "Technikes-ektheseis.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Τεχνικός ασφαλείας.md",
-    "title": "Τεχνικός ασφαλείας",
-    "file": "Technikos-asfaleias.html"
-  },
-  {
-    "path": "ELEMENTS/ΥΠΗΡΕΣΙΕΣ/Τοπογραφικά.md",
-    "title": "Τοπογραφικά",
-    "file": "Topografika.html"
   },
   {
     "path": "METRISI-AKTINOVOLIAS WEBSITE/about.md",
@@ -215,9 +95,9 @@
     "file": "privacy.html"
   },
   {
-    "path": "METRISI-AKTINOVOLIAS WEBSITE/services.md",
-    "title": "services",
-    "file": "services.html"
+    "path": "METRISI-AKTINOVOLIAS WEBSITE/radiation.md",
+    "title": "radiation",
+    "file": "radiation.html"
   },
   {
     "path": "METRISI-AKTINOVOLIAS WEBSITE/terms.md",
