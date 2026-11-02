@@ -1189,7 +1189,7 @@ table.np-props,
     overflow: hidden;
 }
 
-/* 3. Οι Εικόνες του Banner (επαναφορά στο σωστό layout) */
+/* 3. Οι Εικόνες του Banner */
 .is-sticky-banner span.internal-embed,
 .np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed {
     display: block !important;
@@ -1250,7 +1250,8 @@ table.np-props,
     line-height: 1.2 !important;
 }
 
-.np-card img {
+/* Διόρθωση Layout Shift (CLS) ΜΟΝΟ στις εικόνες των καρτών του Blog */
+.np-cards-view .np-card img {
     aspect-ratio: 16 / 9 !important; 
     object-fit: cover !important;
     width: 100% !important;
@@ -1473,13 +1474,4 @@ body.is-embed img {
 
 .custom-search-input::placeholder {
     color: var(--np-color-text-muted);
-}
-
-/* =========================================
-   ΒΗΜΑ 13: FIX LAYOUT SHIFT (CLS) ΓΙΑ ΤΟ ΛΟΓΟΤΥΠΟ
-   ========================================= */
-.np-note-content img[alt*="logo"], 
-img[src*="asset"] {
-    aspect-ratio: 1 / 1 !important;
-    height: auto !important;
 }
