@@ -1561,3 +1561,20 @@ body.is-embed .site-footer { display: none !important; }
     .site-brand { font-size: 0.95rem; }
 }
 
+/* =========================================
+   ΜΕΓΕΘΗ ΕΙΚΟΝΩΝ ΑΠΟ ΤΑ NOTES (|113 κ.λπ.)
+   Το VaultPack το γράφει ως attribute στο <span>, οπότε το εφαρμόζουμε εδώ.
+   ========================================= */
+.np-note-content span.internal-embed.sized-embed {
+    display: inline-block !important;
+    max-width: 100%;
+    margin: 0 1.1rem 1.1rem 0;
+    vertical-align: top;
+}
+
+.np-note-content span.internal-embed.sized-embed img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100%;
+}
+
