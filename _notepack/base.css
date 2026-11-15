@@ -1589,3 +1589,41 @@ body.is-embed .site-footer { display: none !important; }
    ========================================= */
 .gap { display: block; height: 1lh; }
 
+/* =========================================
+   ΠΛΕΓΜΑ ΛΟΓΟΤΥΠΩΝ ΠΕΛΑΤΩΝ (όπως στο 12358)
+   ========================================= */
+body[data-slug="clients"] .logos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 1.6rem 1rem;
+    margin: 0 0 1.8rem;
+}
+
+body[data-slug="clients"] .logos-grid span.sized-embed {
+    width: 100% !important;
+    height: 104px;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 3px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+body[data-slug="clients"] .logos-grid img {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: 84px !important;
+    object-fit: unset;
+    align-self: center;
+}
+
+@media (max-width: 700px) {
+    body[data-slug="clients"] .logos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
