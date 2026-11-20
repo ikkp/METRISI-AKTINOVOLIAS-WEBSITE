@@ -1077,59 +1077,183 @@ footer.np-footer {
   }
 }
 
-
 /* ===== INJECTED CUSTOM CSS ===== */
-/* =========================================
-   ΒΗΜΑ 1 & 2: DARK MODE, SIDEBAR ΚΑΙ ΠΛΑΤΟΣ
-   ========================================= */
+/* =====================================================================
+   ΜΕΤΡΗΣΗ ΑΚΤΙΝΟΒΟΛΙΑΣ — ΠΑΡΑΛΛΑΓΗ B  «ΤΟ ΑΡΧΙΚΟ, ΠΡΟΣΕΓΜΕΝΟ»
+   ---------------------------------------------------------------------
+   Αντικαθιστά 1:1 το υπάρχον custom.css. Καμία αλλαγή σε notes, HTML,
+   εικόνες ή pipeline — όλη η εμφάνιση είναι αυτό το αρχείο.
 
+   Φιλοσοφία: κρατάμε το σημερινό site ως έχει (ίδια χρώματα, ίδιες
+   γραμματοσειρές, ίδιο πλάτος, ίδια διάταξη) και διορθώνουμε μόνο τη
+   λεπτομέρεια:
+   • ίδια παλέτα (#1e1e1e / #ff8c00), ελαφρώς πιο απαλά σύνορα
+   • ίδιο σύστημα γραμματοσειρών (Segoe UI) με καθαρότερη κλίμακα
+   • κεφαλίδα και μενού: ίδια, με σωστή στοίχιση στο κινητό
+   • banner: ίδιο, με ελαφρύ στρογγύλεμα
+   • κάρτες blog: ίδιο πλέγμα 3ων, εικόνα 16:10, καθαρότερα chips
+   • τα άρθρα αποκτούν επιτέλους τίτλο (πριν κρυβόταν)
+   • πίνακες, modal, φίλτρα, αναζήτηση: ίδια λειτουργία, πιο καθαρά
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   1. ΧΡΩΜΑΤΑ — σκούρο (προεπιλογή), όπως το αρχικό
+   --------------------------------------------------------------------- */
 :root {
     --np-color-bg: #1e1e1e !important;
-    --np-color-bg-subtle: #2d2d2d !important;
-    --np-color-text: #e0e0e0 !important;
-    --np-color-text-muted: #a0a0a0 !important;
-    --np-color-border: #444444 !important;
-    --np-color-accent: #ff8c00 !important; 
-    --np-page-max-width-wide: 60rem !important; 
+    --np-color-bg-subtle: #2a2a2a !important;
+    --np-color-text: #e2e2e2 !important;
+    --np-color-text-muted: #9d9d9d !important;
+    --np-color-border: #3d3d3d !important;
+    --np-color-border-strong: #555555 !important;
+    --np-color-accent: #ff8c00 !important;
+    --np-page-max-width-wide: 60rem !important;
+
+    --np-color-header-bg: rgba(30, 30, 30, 0.95) !important;
+    --np-color-nav: #d2d2d2 !important;
+    --np-color-bg-hover: #333333 !important;
+    --np-color-overlay: rgba(0, 0, 0, 0.82) !important;
+
+    /* τοπικές μεταβλητές της παραλλαγής */
+    --b-card: #242424;
+    --b-card-hover: #282828;
+    --b-radius: 10px;
+    --b-radius-sm: 6px;
+    --b-accent-soft: rgba(255, 140, 0, 0.12);
+    --b-accent-ink: #1e1e1e;
+    --b-shadow: 0 14px 32px -22px rgba(0, 0, 0, 0.9);
+
+    color-scheme: dark;
 }
 
+html[data-theme="light"] {
+    --np-color-bg: #ffffff !important;
+    --np-color-bg-subtle: #f4f1ec !important;
+    --np-color-text: #1e1e1e !important;
+    --np-color-text-muted: #5c625f !important;
+    --np-color-border: #ded7cd !important;
+    --np-color-border-strong: #c5bbb0 !important;
+    --np-color-accent: #b35c00 !important;
+
+    --np-color-header-bg: rgba(255, 255, 255, 0.94) !important;
+    --np-color-nav: #2c2c2c !important;
+    --np-color-bg-hover: #efeae2 !important;
+    --np-color-overlay: rgba(30, 25, 20, 0.55) !important;
+
+    --b-card: #ffffff;
+    --b-card-hover: #faf7f2;
+    --b-accent-soft: rgba(179, 92, 0, 0.10);
+    --b-accent-ink: #ffffff;
+    --b-shadow: 0 14px 32px -24px rgba(40, 30, 20, 0.35);
+
+    color-scheme: light;
+}
+
+/* ---------------------------------------------------------------------
+   2. ΒΑΣΗ
+   --------------------------------------------------------------------- */
 body {
     background-color: var(--np-color-bg) !important;
     color: var(--np-color-text) !important;
+    font-size: 16.5px;
+    line-height: 1.68;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-/* 1. Κρύβουμε το Sidebar */
-.np-sidebar, .np-nav-btn, .np-backdrop, .np-topbar {
+::selection {
+    background: var(--np-color-accent);
+    color: var(--b-accent-ink);
+}
+
+:where(a, button, input, .np-card, .custom-filter-btn):focus-visible {
+    outline: 2px solid var(--np-color-accent);
+    outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------
+   3. ΣΚΕΛΕΤΟΣ — sidebar εκτός, στήλη 60rem όπως πριν
+   --------------------------------------------------------------------- */
+.np-sidebar,
+.np-nav-btn,
+.np-backdrop,
+.np-topbar {
     display: none !important;
 }
 
-/* 2. Διορθώνουμε το κενό του sidebar */
 body.np-has-nav {
     margin: 0 auto !important;
     padding: 0 !important;
     max-width: 100vw !important;
 }
 
-/* 3. Περιορίζουμε το κείμενο στο σωστό πλάτος */
+#center-content > .obsidian-document {
+    display: block !important;
+    overflow-y: auto !important;
+    height: 100vh !important;
+}
+
+.markdown-preview-sizer {
+    display: block !important;
+    width: 100% !important;
+    max-width: 60rem !important;
+    margin: 0 auto !important;
+    contain: none !important;
+}
+
 .np-note-content {
     max-width: 60rem !important;
     margin: 0 auto !important;
-    padding: 0 1rem !important;
+    padding: 1.4rem 1rem 0 !important;
 }
 
-/* 4. Κρύβουμε τον ψεύτικο τίτλο, το footer ΚΑΙ τα Properties */
-body > h1, 
+/* αναδίπλωση επικεφαλίδων: βελάκι κρυφό, ενότητες πάντα ανοιχτές */
+.np-fold-btn { display: none !important; }
+.np-hsec.np-folded > .np-hsec-body { display: block !important; }
+
+/* meta / footer / properties του VaultPack — κρυφά όπως πριν */
 body > .np-meta,
-.np-footer, 
-.np-embed-caption, 
+.np-footer,
+.np-embed-caption,
 [class*="caption"],
-.np-props, 
+.np-props,
 table.np-props,
 .frontmatter {
     display: none !important;
 }
 
-/* 5. Διόρθωση πλάτους Base Table */
+/* Ο τίτλος (h1) εμφανίζεται ΜΟΝΟ σε σελίδες χωρίς ενότητα ## —
+   δηλ. στα άρθρα και στις σελίδες προσώπων, που σήμερα μένουν χωρίς τίτλο. */
+body > h1 {
+    display: none !important;
+}
+body:not(.is-embed):not(:has(h2.np-hsec-heading)) > h1 {
+    display: block !important;
+    width: fit-content;
+    max-width: calc(60rem - 2rem);
+    margin: 1.6rem auto 1rem;
+    margin-left: max(1rem, calc(50% - 30rem + 1rem));
+    margin-right: auto;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: -0.02em;
+    color: var(--np-color-text);
+}
+body:not(.is-embed):not(:has(h2.np-hsec-heading)) > h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: 0.7rem;
+    border-radius: 2px;
+    background: var(--np-color-accent);
+}
+body.is-embed > h1 {
+    display: none !important;
+}
+
 .np-embedded-base {
     width: 100% !important;
     max-width: 100% !important;
@@ -1138,348 +1262,9 @@ table.np-props,
     --np-breakout: 100% !important;
 }
 
-.np-table-wrap { width: 100% !important; overflow-x: auto !important; }
-.np-table th { background-color: var(--np-color-bg-subtle) !important; }
-.np-table td { border-color: var(--np-color-border) !important; }
-.np-table a { color: var(--np-color-accent) !important; }
-
-/* 6. Απενεργοποίηση αναδίπλωσης επικεφαλίδων */
-.np-fold-btn { display: none !important; }
-.np-hsec.np-folded > .np-hsec-body { display: block !important; }
-
-/* =========================================
-   ΤΟ ΜΕΓΑΛΟ ΒΗΜΑ: STICKY BANNER & MENU (ΜΕ SLIDER)
-   ========================================= */
-
-#center-content > .obsidian-document {
-    display: block !important; 
-    overflow-y: auto !important; 
-    height: 100vh !important; 
-}
-
-.markdown-preview-sizer {
-    display: block !important;
-    width: 100% !important;
-    max-width: 60rem !important;
-    margin: 0 auto !important;
-    contain: none !important; 
-}
-
-/* 1. Δέσμευση χώρου για το banner (CLS Fix) - Πριν καν τρέξει το JS */
-.np-note-content > p:has(span.internal-embed:nth-of-type(2)) {
-    aspect-ratio: 785 / 272 !important;
-    overflow: hidden !important;
-    display: block !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-/* 2. Το Sticky Banner (όταν το JS προσθέσει την κλάση) */
-.is-sticky-banner {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 0 !important;
-    z-index: 1000 !important;
-    background-color: var(--np-color-bg) !important; 
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    text-align: center !important;
-    display: block !important;
-    aspect-ratio: 785 / 272; 
-    overflow: hidden;
-}
-
-/* 3. Οι Εικόνες του Banner */
-.is-sticky-banner span.internal-embed,
-.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed {
-    display: block !important;
-    width: 100% !important;
-    height: 100% !important; 
-    margin: 0 !important;
-    padding: 0 !important;
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    opacity: 0; 
-    transition: opacity 1s ease-in-out !important;
-    z-index: 1;
-}
-
-.is-sticky-banner span.internal-embed:first-of-type,
-.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed:first-of-type {
-    position: relative !important;
-    opacity: 0; 
-    z-index: 1;
-}
-
-.is-sticky-banner span.internal-embed.banner-active,
-.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed.banner-active {
-    opacity: 1 !important;
-    z-index: 2 !important;
-}
-
-.is-sticky-banner img,
-.np-note-content > p:has(span.internal-embed:nth-of-type(2)) img {
-    width: 100% !important;
-    height: 100% !important; 
-    object-fit: cover !important; 
-    display: block !important;
-    border-radius: 0 !important;
-}
-
-/* 4. Γενικός κανόνας για ΟΛΑ τα links */
-.np-note-content a {
-    color: var(--np-color-accent) !important;
-}
-
-/* =========================================
-   ΒΗΜΑ 7: ΜΙΚΡΟΤΕΡΟΙ & ΟΧΙ BOLD ΤΙΤΛΟΙ ΣΤΙΣ ΚΑΡΤΕΣ
-   ========================================= */
-.np-card-title {
-    font-size: 0.9rem !important; 
-    font-weight: 400 !important;
-    line-height: 1.2 !important;
-}
-
-.np-card h3, 
-.np-card h4,
-.np-card h5 {
-    font-size: 0.9rem !important;
-    font-weight: 400 !important;
-    margin: 0.5rem 0 !important;
-    line-height: 1.2 !important;
-}
-
-/* Διόρθωση Layout Shift (CLS) ΜΟΝΟ στις εικόνες των καρτών του Blog */
-.np-cards-view .np-card img {
-    aspect-ratio: 16 / 9 !important; 
-    object-fit: cover !important;
-    width: 100% !important;
-}
-
-/* =========================================
-   ΒΗΜΑ 8: ΣΤΥΛ ΓΙΑ ΤΟ MODAL (POPUP ΜΕ ΤΙΤΛΟ)
-   ========================================= */
-
-#custom-modal-overlay {
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background-color: var(--np-color-overlay);
-    z-index: 10000; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(5px);
-}
-
-#custom-modal-content {
-    background-color: var(--np-color-bg);
-    border: 1px solid var(--np-color-border);
-    border-radius: 8px;
-    width: 90%;
-    max-width: 800px; 
-    height: 85vh; 
-    position: relative;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-    display: flex;
-    flex-direction: column; 
-    overflow: hidden;
-}
-
-#custom-modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--np-color-bg-subtle);
-    padding: 10px 20px;
-    border-bottom: 1px solid var(--np-color-border);
-}
-
-#custom-modal-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--np-color-text);
-}
-
-#custom-modal-close {
-    background: transparent;
-    border: none;
-    color: var(--np-color-text);
-    font-size: 1.8rem;
-    cursor: pointer;
-    line-height: 1;
-    padding: 0;
-}
-
-#custom-modal-close:hover {
-    color: var(--np-color-accent);
-}
-
-#custom-modal-iframe {
-    width: 100%;
-    flex-grow: 1; 
-    border: none;
-    background-color: var(--np-color-bg);
-}
-
-/* =========================================
-   ΒΗΜΑ 9: EMBED MODE (ΓΙΑ ΤΟ POPUP)
-   ========================================= */
-
-body.is-embed .np-topbar,
-body.is-embed .np-footer,
-body.is-embed .np-props,
-body.is-embed table.np-props,
-body.is-embed > h1,
-body.is-embed > .np-meta {
-    display: none !important;
-}
-
-body.is-embed .is-sticky-banner,
-body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) {
-    position: static !important; 
-    background-color: transparent !important; 
-    z-index: auto !important; 
-    margin: 0 !important;
-    padding: 0 !important;
-    aspect-ratio: auto !important; 
-    height: auto !important;
-}
-
-body.is-embed .is-sticky-banner span.internal-embed,
-body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed {
-    height: auto !important;
-    position: relative !important;
-    opacity: 1 !important; 
-    display: inline-block !important;
-    margin-bottom: 10px !important;
-}
-
-body.is-embed .is-sticky-banner img,
-body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) img {
-    height: auto !important;
-    object-fit: contain !important;
-}
-
-body.is-embed {
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: hidden !important; 
-}
-
-body.is-embed .np-note-content {
-    max-width: 100% !important; 
-    padding: 1.5rem !important;
-    margin: 0 !important;
-}
-
-body.is-embed .markdown-preview-sizer {
-    max-width: 100% !important;
-    width: 100% !important;
-    padding: 0 !important;
-}
-
-body.is-embed img {
-    max-width: 100% !important;
-    height: auto !important;
-}
-
-/* =========================================
-   ΒΗΜΑ 10: ΦΙΛΤΡΑ ΓΙΑ ΤΑ ΒΑSES (ΚΑΤΗΓΟΡΙΕΣ)
-   ========================================= */
-
-.custom-filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid var(--np-color-border);
-}
-
-.custom-filter-btn {
-    background-color: var(--np-color-bg-subtle);
-    border: 1px solid var(--np-color-border);
-    color: var(--np-color-text);
-    padding: 6px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: all 0.2s ease;
-}
-
-.custom-filter-btn:hover {
-    background-color: #3a3a3a;
-    color: var(--np-color-accent);
-    border-color: var(--np-color-accent);
-}
-
-.custom-filter-btn.active {
-    background-color: var(--np-color-accent);
-    color: #1e1e1e; 
-    border-color: var(--np-color-accent);
-    font-weight: 700;
-}
-
-/* =========================================
-   ΒΗΜΑ 11: ΑΛΛΑΓΗ ΚΕΦΑΛΙΔΑΣ "file name" ΣΤΟΥΣ ΠΙΝΑΚΕΣ BASE
-   ========================================= */
-
-.np-table th:first-child {
-    font-size: 0 !important; 
-}
-
-.np-table th:first-child::after {
-    content: "Ονομασία" !important; 
-    font-size: 0.9rem !important; 
-    color: var(--np-color-text-muted) !important;
-    font-weight: 500 !important;
-}
-
-/* 
-.np-table thead {
-    display: none !important;
-}
-*/ 
-
-/* =========================================
-   ΒΗΜΑ 12: ΣΤΥΛ ΓΙΑ ΤΟ ΠΕΔΙΟ ΑΝΑΖΗΤΗΣΗΣ
-   ========================================= */
-.custom-search-container {
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.custom-search-input {
-    width: 100%;
-    max-width: 400px;
-    padding: 12px 20px;
-    border: 1px solid var(--np-color-border);
-    border-radius: 30px;
-    background-color: var(--np-color-bg-subtle);
-    color: var(--np-color-text);
-    font-size: 1rem;
-    font-family: inherit;
-    outline: none;
-    transition: border-color 0.2s, box-shadow 0.2s;
-    box-sizing: border-box;
-}
-
-.custom-search-input:focus {
-    border-color: var(--np-color-accent);
-    box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.2); 
-}
-
-.custom-search-input::placeholder {
-    color: var(--np-color-text-muted);
-}
-
-/* =========================================
-   ΚΕΦΑΛΙΔΑ SITE (sticky μενού) & ΥΠΟΣΕΛΙΔΟ
-   ========================================= */
+/* ---------------------------------------------------------------------
+   4. ΚΕΦΑΛΙΔΑ — ίδια λογική, καθαρότερος “αέρας”
+   --------------------------------------------------------------------- */
 .site-header {
     position: sticky;
     top: 0;
@@ -1493,7 +1278,7 @@ body.is-embed img {
 .site-header-inner {
     max-width: 60rem;
     margin: 0 auto;
-    padding: 0.8rem 1rem;
+    padding: 0.85rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1501,8 +1286,9 @@ body.is-embed img {
 }
 
 .site-brand {
-    font-size: 1rem;
+    font-size: 1.02rem;
     font-weight: 700;
+    letter-spacing: -0.01em;
     color: var(--np-color-text) !important;
     text-decoration: none !important;
     white-space: nowrap;
@@ -1513,160 +1299,30 @@ body.is-embed img {
 .site-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    font-size: 0.82rem;
+    gap: 1.05rem;
+    font-size: 0.9rem;
 }
 
 .site-nav a {
-    color: var(--np-color-text-muted) !important;
+    color: var(--np-color-nav) !important;
     text-decoration: none !important;
-    padding-bottom: 2px;
-    border-bottom: 1px solid transparent;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.18s ease, border-color 0.18s ease;
 }
 
-.site-nav a:hover { color: var(--np-color-accent) !important; }
+html .site-nav a { color: var(--np-color-nav) !important; }
 
-.site-nav a[aria-current="page"] {
+.site-nav a:hover,
+html .site-nav a:hover { color: var(--np-color-accent) !important; }
+
+.site-nav a[aria-current="page"],
+html .site-nav a[aria-current="page"] {
     color: var(--np-color-accent) !important;
     border-bottom-color: var(--np-color-accent);
 }
 
-.site-footer {
-    border-top: 1px solid var(--np-color-border);
-    margin-top: 3rem;
-    padding: 1.5rem 1rem 2rem;
-    text-align: center;
-    font-size: 0.78rem;
-    color: var(--np-color-text-muted);
-}
-
-.site-footer p { margin: 0; }
-
-/* Το banner σκρολάρει πλέον ΚΑΤΩ από την κεφαλίδα: δεν είναι sticky */
-.is-sticky-banner,
-.np-note-content > p:first-of-type:has(> span.internal-embed),
-.np-note-content > p:has(span.internal-embed:nth-of-type(2)) {
-    position: relative !important;
-    top: auto !important;
-    z-index: auto !important;
-    margin: 0 0 1.5rem !important;
-}
-
-/* Μέσα στο modal (12358) δεν θέλουμε κεφαλίδα/υποσέλιδο */
-body.is-embed .site-header,
-body.is-embed .site-footer { display: none !important; }
-
-@media (max-width: 700px) {
-    .site-header-inner { padding: 0.7rem 1rem; }
-    .site-nav { gap: 0.8rem; font-size: 0.78rem; }
-    .site-brand { font-size: 0.95rem; }
-}
-
-/* =========================================
-   ΜΕΓΕΘΗ ΕΙΚΟΝΩΝ ΑΠΟ ΤΑ NOTES (|113 κ.λπ.)
-   Το VaultPack το γράφει ως attribute στο <span>, οπότε το εφαρμόζουμε εδώ.
-   ========================================= */
-.np-note-content span.internal-embed.sized-embed {
-    display: inline-block !important;
-    max-width: 100%;
-    margin: 0 1.1rem 1.1rem 0;
-    vertical-align: top;
-}
-
-.np-note-content span.internal-embed.sized-embed img {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 100%;
-}
-
-/* =========================================
-   ΚΕΝΕΣ ΓΡΑΜΜΕΣ ΑΠΟ ΤΟ NOTE (::sp1 / ::sp2 / ::sp3)
-   Γράφεις το ::sp2 μόνο του σε μια γραμμή → τόσες γραμμές κενό.
-   ========================================= */
-
-/* =========================================
-   ΚΕΝΕΣ ΓΡΑΜΜΕΣ: κάθε κενή σειρά του .md
-   γίνεται πραγματικό κενό (div.gap)
-   ========================================= */
-.gap { display: block; height: 1lh; }
-
-/* =========================================
-   ΠΛΕΓΜΑ ΛΟΓΟΤΥΠΩΝ ΠΕΛΑΤΩΝ (όπως στο 12358)
-   ========================================= */
-body[data-slug="clients"] .logos-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    align-items: center;
-    justify-items: center;
-    gap: 1.6rem 1rem;
-    margin: 0 0 1.8rem;
-}
-
-body[data-slug="clients"] .logos-grid span.sized-embed {
-    width: 100% !important;
-    height: 104px;
-    box-sizing: border-box;
-    padding: 10px;
-    background: #ffffff;
-    border-radius: 3px;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    margin: 0 !important;
-}
-
-body[data-slug="clients"] .logos-grid img {
-    width: auto !important;
-    height: auto !important;
-    max-width: 100% !important;
-    max-height: 84px !important;
-    object-fit: unset;
-    align-self: center;
-}
-
-@media (max-width: 700px) {
-    body[data-slug="clients"] .logos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-
-/* =========================================
-   ΦΩΤΕΙΝΟ / ΣΚΟΥΡΟ ΘΕΜΑ  (2026-11-16)
-   Το σκούρο μένει προεπιλογή· το κουμπί στην κεφαλίδα γράφει
-   data-theme="light" στο <html> και το θυμάται στο localStorage.
-   ========================================= */
-
-:root {
-    color-scheme: dark;
-    --np-color-header-bg: rgba(30, 30, 30, 0.95) !important;
-    --np-color-nav: #ffffff !important;
-    --np-color-bg-hover: #3a3a3a !important;
-    --np-color-overlay: rgba(0, 0, 0, 0.85) !important;
-}
-
-html[data-theme="light"] {
-    color-scheme: light;
-    --np-color-bg: #ffffff !important;
-    --np-color-bg-subtle: #f4f1ec !important;
-    --np-color-text: #1e1e1e !important;
-    --np-color-text-muted: #5c625f !important;
-    --np-color-border: #ded7cd !important;
-    --np-color-accent: #b35c00 !important;
-    --np-color-header-bg: rgba(255, 255, 255, 0.94) !important;
-    --np-color-nav: #1e1e1e !important;
-    --np-color-bg-hover: #efeae2 !important;
-    --np-color-overlay: rgba(30, 25, 20, 0.55) !important;
-}
-
-html .site-nav a { color: var(--np-color-nav) !important; }
-html .site-nav a:hover,
-html .site-nav a[aria-current="page"] { color: var(--np-color-accent) !important; }
-
-/* Ομαλή αλλαγή χρώματος όταν πατιέται το κουμπί */
-body, .site-header, .is-sticky-banner, .np-card,
-.custom-filter-btn, .custom-search-input {
-    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-}
-
-/* --- Το κουμπί εναλλαγής --- */
+/* κουμπί θέματος — όπως πριν */
 .theme-toggle {
     flex: none;
     width: 2.15rem;
@@ -1700,18 +1356,765 @@ body, .site-header, .is-sticky-banner, .np-card,
     stroke-linecap: round;
 }
 
-/* Σκούρο θέμα: δείχνουμε ήλιο (πάμε σε φωτεινό). Φωτεινό: φεγγάρι. */
 .theme-toggle .icon-moon { display: none; }
 html[data-theme="light"] .theme-toggle .icon-sun { display: none; }
 html[data-theme="light"] .theme-toggle .icon-moon { display: block; }
 
-/* Μέσα στο modal (iframe) δεν χρειάζεται κουμπί */
 body.is-embed .theme-toggle { display: none !important; }
 
-/* --- Το λογότυπο: θετικό (λευκό) στο σκούρο, αρνητικό (μαύρο) στο φωτεινό --- */
 img.brand-logo {
     max-width: 92px;
     height: auto;
 }
 html[data-theme="light"] img.brand-logo { filter: none; }
+html[data-theme="light"] .is-sticky-banner,
+html[data-theme="light"] .np-note-content > p:has(span.internal-embed:nth-of-type(2)) {
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+/* ---------------------------------------------------------------------
+   5. BANNER — ίδιο, με ελαφρύ στρογγύλεμα
+   --------------------------------------------------------------------- */
+.np-note-content > p:first-of-type:has(> span.internal-embed) {
+    /* δέσμευση χώρου πριν τρέξει το JS (CLS) */
+    position: relative !important;
+    top: auto !important;
+    z-index: auto !important;
+    aspect-ratio: 785 / 272 !important;
+    overflow: hidden !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: var(--b-radius) !important;
+}
+
+.is-sticky-banner,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) {
+    position: relative !important;
+    top: auto !important;
+    z-index: auto !important;
+    display: block !important;
+    width: 100% !important;
+    aspect-ratio: 785 / 272 !important;
+    margin: 0 0 1.6rem !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    text-align: center !important;
+    border-radius: var(--b-radius);
+    background-color: var(--np-color-bg) !important;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.is-sticky-banner span.internal-embed,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out !important;
+    z-index: 1;
+}
+
+.is-sticky-banner span.internal-embed:first-of-type,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed:first-of-type {
+    position: relative !important;
+    opacity: 0;
+    z-index: 1;
+}
+
+.is-sticky-banner span.internal-embed.banner-active,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed.banner-active {
+    opacity: 1 !important;
+    z-index: 2 !important;
+}
+
+.is-sticky-banner img,
+.np-note-content > p:has(span.internal-embed:nth-of-type(2)) img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    border-radius: 0 !important;
+}
+
+/* ---------------------------------------------------------------------
+   6. ΤΥΠΟΓΡΑΦΙΑ & ΚΕΙΜΕΝΟ
+   --------------------------------------------------------------------- */
+.np-note-content p {
+    margin: 0 0 1.15rem;
+}
+
+.np-note-content strong,
+.np-note-content b {
+    font-weight: 600;
+    color: var(--np-color-text);
+}
+
+.np-note-content a {
+    color: var(--np-color-accent) !important;
+    text-decoration: none;
+    text-underline-offset: 3px;
+}
+
+.np-note-content a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.np-note-content ul,
+.np-note-content ol {
+    padding-left: 1.4rem;
+    margin: 0 0 1.1rem;
+}
+
+.np-note-content li { margin: 0.3rem 0; }
+.np-note-content li::marker { color: var(--np-color-accent); }
+
+.np-note-content blockquote {
+    margin: 1.4rem 0;
+    padding: 0.85rem 1.1rem;
+    border-left: 3px solid var(--np-color-accent);
+    border-radius: 0 var(--b-radius-sm) var(--b-radius-sm) 0;
+    background: var(--np-color-bg-subtle);
+}
+.np-note-content blockquote p:last-child { margin-bottom: 0; }
+
+/* τίτλοι ενοτήτων: ίδιο μέγεθος με πριν, με λεπτή πορτοκαλί γραμμή */
+.np-note-content h2,
+.np-note-content h2.np-hsec-heading {
+    width: fit-content;
+    max-width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.22;
+    letter-spacing: -0.018em;
+    color: var(--np-color-text);
+    margin: 0 0 1.15rem;
+    scroll-margin-top: 5rem;
+}
+
+.np-note-content h2.np-hsec-heading::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: 0.6rem;
+    border-radius: 2px;
+    background: var(--np-color-accent);
+}
+
+.np-note-content h3,
+.np-note-content h3.np-hsec-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.012em;
+    color: var(--np-color-text);
+    margin: 2.2rem 0 0.7rem;
+    scroll-margin-top: 5rem;
+}
+
+.np-note-content h4 { font-size: 1.05rem; font-weight: 600; margin: 1.7rem 0 0.5rem; }
+
+/* εικόνες κειμένου */
+.np-note-content img { max-width: 100%; height: auto; }
+.np-note-content p > span.internal-embed img,
+.np-note-content p > img { border-radius: var(--b-radius-sm); }
+
+.np-note-content span.internal-embed.sized-embed {
+    display: inline-block !important;
+    max-width: 100%;
+    margin: 0 1.1rem 1.1rem 0;
+    vertical-align: top;
+}
+
+.np-note-content span.internal-embed.sized-embed img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100%;
+}
+
+/* κώδικας / callouts / iframes */
+.np-note-content pre,
+pre.np-raw {
+    background: var(--np-color-bg-subtle);
+    border: 1px solid var(--np-color-border);
+    border-radius: var(--b-radius-sm);
+    padding: 0.9rem 1rem;
+    font-size: 0.9rem;
+}
+
+.np-note-content code {
+    background: var(--np-color-bg-subtle);
+    border-radius: 4px;
+    padding: 0.1em 0.35em;
+    font-size: 0.92em;
+}
+.np-note-content pre code { background: none; padding: 0; }
+
+.callout {
+    border: 1px solid var(--np-color-border) !important;
+    border-radius: var(--b-radius-sm) !important;
+    background: var(--np-color-bg-subtle) !important;
+    padding: 0.85rem 1rem !important;
+    margin: 1.3rem 0 !important;
+}
+
+.np-video,
+.np-video iframe { border-radius: var(--b-radius-sm) !important; }
+
+.np-note-content iframe {
+    max-width: 100%;
+    border: 1px solid var(--np-color-border);
+    border-radius: var(--b-radius-sm);
+}
+
+/* κενές γραμμές από το note */
+.gap { display: block; height: 1lh; }
+
+/* ---------------------------------------------------------------------
+   7. ΚΑΡΤΕΣ BLOG — ίδιο πλέγμα 3ων, πιο καθαρές
+   --------------------------------------------------------------------- */
+.np-cards {
+    gap: 0.85rem !important;
+    grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)) !important;
+    margin: 0.3rem 0 1.5rem !important;
+}
+
+.np-card {
+    background: var(--b-card) !important;
+    border: 1px solid var(--np-color-border) !important;
+    border-radius: var(--b-radius) !important;
+    padding: 0 !important;
+    overflow: hidden;
+    transition: transform 0.22s ease, border-color 0.22s ease,
+                background-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.np-card:hover {
+    transform: translateY(-2px);
+    background: var(--b-card-hover) !important;
+    border-color: color-mix(in srgb, var(--np-color-accent) 45%, var(--np-color-border)) !important;
+    box-shadow: var(--b-shadow);
+}
+
+.np-card-cover {
+    display: block !important;
+    aspect-ratio: 16 / 10 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    overflow: hidden;
+    background: var(--np-color-bg-subtle);
+}
+
+.np-cards-view .np-card-cover img,
+.np-cards-view .np-card img {
+    aspect-ratio: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block;
+    border-radius: 0 !important;
+    transition: transform 0.4s ease;
+}
+
+.np-card:hover .np-card-cover img { transform: scale(1.035); }
+
+.np-card-title {
+    font-size: 0.98rem !important;
+    font-weight: 600 !important;
+    line-height: 1.34 !important;
+    margin: 0 !important;
+    padding: 0.8rem 0.9rem 0.3rem;
+}
+
+.np-card-title a,
+.np-card-title .np-note-link {
+    color: var(--np-color-text) !important;
+    text-decoration: none !important;
+}
+.np-card:hover .np-card-title a { color: var(--np-color-accent) !important; }
+
+.np-card h3,
+.np-card h4,
+.np-card h5 {
+    font-size: 0.98rem !important;
+    font-weight: 600 !important;
+    line-height: 1.34 !important;
+    margin: 0.5rem 0 !important;
+}
+
+/* chips: χωρίς ετικέτες, κατηγορία · ημερομηνία σε μία γραμμή */
+.np-card .np-list-sub,
+.np-list-sub {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 0.45rem;
+    margin: 0 !important;
+    padding: 0 0.9rem 0.85rem;
+    font-size: 0.78rem !important;
+    color: var(--np-color-text-muted) !important;
+    font-variant-numeric: tabular-nums;
+}
+
+.np-card .np-sub-prop {
+    display: inline-flex !important;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.np-card .np-sub-label { display: none !important; }
+
+.np-card .np-sub-prop + .np-sub-prop::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: var(--np-color-border-strong);
+    margin-right: 0.45rem;
+}
+
+/* ---------------------------------------------------------------------
+   7β. ΣΕΛΙΔΑ «ΕΜΕΙΣ» — κάρτες προσώπων
+   Οι φωτογραφίες είναι πορτρέτα (158×200). Στο οριζόντιο κάδρο 16:10
+   που χρησιμοποιεί το blog, κόβονταν τα κεφάλια. Εδώ: κάθετη αναλογία
+   4:5 (σχεδόν ίδια με την πηγή, άρα χωρίς κόψιμο), εστίαση ψηλά, και
+   σειρές που κεντράρονται (3 + 2) αντί να “γέρνει” η τελευταία.
+   --------------------------------------------------------------------- */
+body[data-slug="about"] .np-cards {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1.15rem !important;
+    margin: 1.2rem 0 2rem !important;
+}
+
+body[data-slug="about"] .np-card {
+    flex: 0 1 262px;
+    max-width: 262px;
+    padding: 0 !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+body[data-slug="about"] .np-card-cover {
+    aspect-ratio: 4 / 5 !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid var(--np-color-border);
+}
+
+body[data-slug="about"] .np-cards-view .np-card-cover img,
+body[data-slug="about"] .np-cards-view .np-card img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: 50% 20% !important;
+    border-radius: 0 !important;
+    transition: transform 0.5s ease;
+}
+
+body[data-slug="about"] .np-card:hover .np-card-cover img { transform: scale(1.04); }
+
+body[data-slug="about"] .np-card-title {
+    padding: 0.8rem 0.8rem 0.95rem !important;
+    text-align: center;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.005em;
+}
+
+body[data-slug="about"] .np-card-title a { color: var(--np-color-text) !important; }
+body[data-slug="about"] .np-card:hover .np-card-title a { color: var(--np-color-accent) !important; }
+
+/* ---------------------------------------------------------------------
+   8. ΑΝΑΖΗΤΗΣΗ & ΦΙΛΤΡΑ — ίδια σχήματα, καθαρότερα χρώματα
+   --------------------------------------------------------------------- */
+.custom-search-container {
+    margin-bottom: 0.9rem;
+    width: 100%;
+}
+
+.custom-search-input {
+    width: 100%;
+    max-width: 26rem;
+    padding: 0.65rem 1rem;
+    border: 1px solid var(--np-color-border);
+    border-radius: 999px;
+    background-color: var(--np-color-bg-subtle);
+    color: var(--np-color-text);
+    font-size: 0.95rem;
+    font-family: inherit;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-search-input::placeholder { color: var(--np-color-text-muted); }
+
+.custom-search-input:focus {
+    border-color: var(--np-color-accent);
+    box-shadow: 0 0 0 3px var(--b-accent-soft);
+}
+
+.custom-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0 0 1.4rem;
+    padding: 0 0 0.2rem;
+    border-bottom: 1px solid var(--np-color-border);
+}
+
+.custom-filter-btn {
+    background-color: transparent;
+    border: 1px solid var(--np-color-border);
+    color: var(--np-color-text);
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.84rem;
+    font-weight: 500;
+    transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease;
+}
+
+.custom-filter-btn:hover {
+    background-color: var(--np-color-bg-subtle);
+    color: var(--np-color-accent);
+    border-color: var(--np-color-accent);
+}
+
+.custom-filter-btn.active {
+    background-color: var(--np-color-accent);
+    color: var(--b-accent-ink);
+    border-color: var(--np-color-accent);
+    font-weight: 600;
+}
+
+.np-group-label {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 1.8rem 0 0.5rem;
+}
+
+/* ---------------------------------------------------------------------
+   9. ΠΙΝΑΚΕΣ — ίδια δομή, πιο ήσυχες γραμμές
+   --------------------------------------------------------------------- */
+.np-table-wrap {
+    width: 100% !important;
+    overflow-x: auto !important;
+    margin: 1rem 0 1.6rem;
+    border: 1px solid var(--np-color-border);
+    border-radius: var(--b-radius);
+}
+
+.np-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.93rem;
+}
+
+.np-table th,
+.np-table td {
+    border: 0 !important;
+    border-bottom: 1px solid var(--np-color-border) !important;
+    padding: 0.6rem 0.8rem !important;
+    text-align: left;
+    vertical-align: top;
+}
+
+.np-table tr:last-child td { border-bottom: 0 !important; }
+
+.np-table th {
+    background-color: var(--np-color-bg-subtle) !important;
+    color: var(--np-color-text) !important;
+    font-size: 0.8rem !important;
+    font-weight: 600 !important;
+    white-space: nowrap;
+}
+
+.np-table tbody tr:hover td { background: var(--np-color-bg-subtle); }
+.np-table a { color: var(--np-color-accent) !important; }
+
+/* η πρώτη στήλη λέγεται “Ονομασία” όπως πριν */
+.np-table th:first-child { font-size: 0 !important; }
+.np-table th:first-child::after {
+    content: "Ονομασία" !important;
+    font-size: 0.8rem !important;
+    color: var(--np-color-text) !important;
+    font-weight: 600 !important;
+}
+
+/* ---------------------------------------------------------------------
+   10. MODAL & EMBED MODE
+   --------------------------------------------------------------------- */
+#custom-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--np-color-overlay);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+#custom-modal-content {
+    background-color: var(--np-color-bg);
+    border: 1px solid var(--np-color-border);
+    border-radius: var(--b-radius);
+    width: 90%;
+    max-width: 820px;
+    height: 85vh;
+    position: relative;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#custom-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--np-color-bg-subtle);
+    padding: 0.8rem 1.1rem;
+    border-bottom: 1px solid var(--np-color-border);
+}
+
+#custom-modal-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--np-color-text);
+}
+
+#custom-modal-close {
+    background: transparent;
+    border: none;
+    color: var(--np-color-text);
+    font-size: 1.7rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0.2rem;
+}
+
+#custom-modal-close:hover { color: var(--np-color-accent); }
+
+#custom-modal-iframe {
+    width: 100%;
+    flex-grow: 1;
+    border: none;
+    background-color: var(--np-color-bg);
+}
+
+body.is-embed .np-topbar,
+body.is-embed .np-footer,
+body.is-embed .np-props,
+body.is-embed table.np-props,
+body.is-embed > h1,
+body.is-embed > .np-meta,
+body.is-embed .site-header,
+body.is-embed .site-footer {
+    display: none !important;
+}
+
+body.is-embed .is-sticky-banner,
+body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) {
+    position: static !important;
+    background-color: transparent !important;
+    z-index: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    aspect-ratio: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+body.is-embed .is-sticky-banner span.internal-embed,
+body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) span.internal-embed {
+    height: auto !important;
+    position: relative !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+    margin-bottom: 10px !important;
+}
+
+body.is-embed .is-sticky-banner img,
+body.is-embed .np-note-content > p:has(span.internal-embed:nth-of-type(2)) img {
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+body.is-embed {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+body.is-embed .np-note-content {
+    max-width: 100% !important;
+    padding: 1.5rem !important;
+    margin: 0 !important;
+}
+
+body.is-embed .markdown-preview-sizer {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+body.is-embed img {
+    max-width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+/* ---------------------------------------------------------------------
+   11. ΥΠΟΣΕΛΙΔΟ & ΛΟΓΟΤΥΠΑ ΠΕΛΑΤΩΝ
+   --------------------------------------------------------------------- */
+.site-footer {
+    border-top: 1px solid var(--np-color-border);
+    margin-top: 3rem;
+    padding: 1.6rem 1rem 2.2rem;
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--np-color-text-muted);
+}
+
+.site-footer p { margin: 0; }
+
+body[data-slug="clients"] .logos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 0.9rem;
+    margin: 0 0 1.6rem;
+}
+
+body[data-slug="clients"] .logos-grid span.sized-embed {
+    width: 100% !important;
+    height: 104px;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid var(--np-color-border);
+    border-radius: var(--b-radius-sm);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+body[data-slug="clients"] .logos-grid img {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: 84px !important;
+    object-fit: unset;
+    align-self: center;
+}
+
+/* ---------------------------------------------------------------------
+   12. ΚΙΝΗΤΟ
+   --------------------------------------------------------------------- */
+@media (max-width: 760px) {
+    body { font-size: 16px; line-height: 1.66; }
+
+    .np-note-content { padding: 1rem 1rem 0 !important; }
+
+    /* κεφαλίδα: όνομα + κουμπί θέματος σε μία σειρά, μενού σε λωρίδα */
+    .site-header-inner {
+        flex-wrap: wrap;
+        padding: 0.7rem 1rem 0.45rem;
+        gap: 0.5rem;
+    }
+
+    .site-brand { order: 1; font-size: 0.98rem; }
+    .theme-toggle { order: 2; margin-left: auto; }
+
+    .site-nav {
+        order: 3;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow-x: auto;
+        gap: 0.9rem;
+        padding-bottom: 0.25rem;
+        font-size: 0.85rem;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .site-nav::-webkit-scrollbar { display: none; }
+    .site-nav a { white-space: nowrap; }
+
+    .np-note-content h2.np-hsec-heading { font-size: 1.35rem; }
+
+    body:not(.is-embed):not(:has(h2.np-hsec-heading)) > h1 {
+        margin: 1.2rem 0 0.8rem 1rem;
+        font-size: 1.65rem;
+    }
+
+    .np-cards {
+        gap: 0.75rem !important;
+        grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)) !important;
+    }
+
+    /* «Εμείς»: δύο πρόσωπα ανά σειρά στο κινητό */
+    body[data-slug="about"] .np-cards { gap: 0.7rem !important; }
+    body[data-slug="about"] .np-card {
+        flex: 0 1 calc(50% - 0.5rem);
+        max-width: calc(50% - 0.5rem);
+    }
+    body[data-slug="about"] .np-card-title {
+        font-size: 0.86rem !important;
+        padding: 0.6rem 0.5rem 0.7rem !important;
+    }
+
+    .custom-filter-bar {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 0.35rem;
+        margin-bottom: 1.2rem;
+        scrollbar-width: none;
+    }
+    .custom-filter-bar::-webkit-scrollbar { display: none; }
+    .custom-filter-btn { flex: none; }
+
+    .custom-search-input { max-width: 100%; }
+
+    .site-footer {
+        margin-top: 2.4rem;
+        padding: 1.5rem 1rem 2rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .site-nav {
+        -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent 100%);
+        mask-image: linear-gradient(90deg, #000 88%, transparent 100%);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        transition-duration: 0.001ms !important;
+        animation-duration: 0.001ms !important;
+    }
+    .np-card:hover { transform: none; }
+    .np-card:hover .np-card-cover img { transform: none; }
+}
 
