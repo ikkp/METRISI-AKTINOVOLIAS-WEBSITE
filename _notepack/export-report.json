@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-15T17:14:30.950Z",
+  "startedAt": "2026-11-20T14:17:15.387Z",
   "manifestVersion": "0.18.6",
   "scopeTitle": "METRISI-AKTINOVOLIAS WEBSITE",
   "exportMode": "local",
@@ -62,11 +62,29 @@
   "notes": [
     {
       "path": "ELEMENTS/BLOG/Βελτίωση στην κατοικία.md",
+      "embedSrcs": [
+        "Ασύρματη κάμερα κούνιας.webp"
+      ],
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"Ασύρματη κάμερα κούνιας.webp\" alt=\"Ασύρματη κάμερα κούνιας.webp\"><img alt=\"Ασύρματη κάμερα κούνιας.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%91%CF%83%CF%8D%CF%81%CE%BC%CE%B1%CF%84%CE%B7%20%CE%BA%CE%AC%CE%BC%CE%B5%CF%81%CE%B1%20%CE%BA%CE%BF%CF%8D%CE%BD%CE%B9%CE%B1%CF%82.webp?1793460009801\"></span>",
+      "embedQueryHits": [],
+      "embedReplacements": [
+        {
+          "src": "Ασύρματη κάμερα κούνιας.webp",
+          "skipped": "not-a-base-embed"
+        }
+      ],
       "links": [],
-      "images": [],
-      "embedSpanCount": 0,
+      "images": [
+        {
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%91%CF%83%CF%8D%CF%81%CE%BC%CE%B1%CF%84%CE%B7%20%CE%BA%CE%AC%CE%BC%CE%B5%CF%81%CE%B1%20%CE%BA%CE%BF%CF%8D%CE%BD%CE%B9%CE%B1%CF%82.webp?1793460009801",
+          "resolvedPath": "ATTACHMENTS/BLOG/Ασύρματη κάμερα κούνιας.webp",
+          "asset": "asset-c5392d63.webp"
+        }
+      ],
+      "embedSpanCount": 1,
       "noteEmbeds": [],
       "topLevelTags": [
+        "p",
         "p",
         "p",
         "p",
@@ -89,11 +107,29 @@
     },
     {
       "path": "ELEMENTS/BLOG/Η κεραία απέναντι και ο φούρνος μικροκυμάτων.md",
+      "embedSrcs": [
+        "Κεραία και φούρνος.webp"
+      ],
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"Κεραία και φούρνος.webp\" alt=\"Κεραία και φούρνος.webp\"><img alt=\"Κεραία και φούρνος.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%9A%CE%B5%CF%81%CE%B1%CE%AF%CE%B1%20%CE%BA%CE%B1%CE%B9%20%CF%86%CE%BF%CF%8D%CF%81%CE%BD%CE%BF%CF%82.webp?1794266693341\"></span>",
+      "embedQueryHits": [],
+      "embedReplacements": [
+        {
+          "src": "Κεραία και φούρνος.webp",
+          "skipped": "not-a-base-embed"
+        }
+      ],
       "links": [],
-      "images": [],
-      "embedSpanCount": 0,
+      "images": [
+        {
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%9A%CE%B5%CF%81%CE%B1%CE%AF%CE%B1%20%CE%BA%CE%B1%CE%B9%20%CF%86%CE%BF%CF%8D%CF%81%CE%BD%CE%BF%CF%82.webp?1794266693341",
+          "resolvedPath": "ATTACHMENTS/BLOG/Κεραία και φούρνος.webp",
+          "asset": "asset-5dd19d7b.webp"
+        }
+      ],
+      "embedSpanCount": 1,
       "noteEmbeds": [],
       "topLevelTags": [
+        "p",
         "p",
         "p",
         "p",
@@ -107,11 +143,29 @@
     },
     {
       "path": "ELEMENTS/BLOG/Ηλεκτρικά αυτοκίνητα.md",
+      "embedSrcs": [
+        "Ηλεκτρικά αυτοκίνητα.webp"
+      ],
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"Ηλεκτρικά αυτοκίνητα.webp\" alt=\"Ηλεκτρικά αυτοκίνητα.webp\"><img alt=\"Ηλεκτρικά αυτοκίνητα.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%97%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%B9%CE%BA%CE%AC%20%CE%B1%CF%85%CF%84%CE%BF%CE%BA%CE%AF%CE%BD%CE%B7%CF%84%CE%B1.webp?1793493085182\"></span>",
+      "embedQueryHits": [],
+      "embedReplacements": [
+        {
+          "src": "Ηλεκτρικά αυτοκίνητα.webp",
+          "skipped": "not-a-base-embed"
+        }
+      ],
       "links": [],
-      "images": [],
-      "embedSpanCount": 0,
+      "images": [
+        {
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%97%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%B9%CE%BA%CE%AC%20%CE%B1%CF%85%CF%84%CE%BF%CE%BA%CE%AF%CE%BD%CE%B7%CF%84%CE%B1.webp?1793493085182",
+          "resolvedPath": "ATTACHMENTS/BLOG/Ηλεκτρικά αυτοκίνητα.webp",
+          "asset": "asset-ae2e5dc3.webp"
+        }
+      ],
+      "embedSpanCount": 1,
       "noteEmbeds": [],
       "topLevelTags": [
+        "p",
         "p",
         "p",
         "h3",
@@ -143,11 +197,29 @@
     },
     {
       "path": "ELEMENTS/BLOG/Οι κτιριακοί βιολόγοι της Γερμανίας (Bau Biology).md",
+      "embedSrcs": [
+        "IBN.webp"
+      ],
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"IBN.webp\" alt=\"IBN.webp\"><img alt=\"IBN.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/IBN.webp?1793452662884\"></span>",
+      "embedQueryHits": [],
+      "embedReplacements": [
+        {
+          "src": "IBN.webp",
+          "skipped": "not-a-base-embed"
+        }
+      ],
       "links": [],
-      "images": [],
-      "embedSpanCount": 0,
+      "images": [
+        {
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/IBN.webp?1793452662884",
+          "resolvedPath": "ATTACHMENTS/BLOG/IBN.webp",
+          "asset": "asset-11bff40e.webp"
+        }
+      ],
+      "embedSpanCount": 1,
       "noteEmbeds": [],
       "topLevelTags": [
+        "p",
         "p",
         "p",
         "h3",
@@ -160,11 +232,29 @@
     },
     {
       "path": "ELEMENTS/BLOG/Ραδιενέργεια.md",
+      "embedSrcs": [
+        "Radioactivity.webp"
+      ],
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"Radioactivity.webp\" alt=\"Radioactivity.webp\"><img alt=\"Radioactivity.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Radioactivity.webp?1793451310378\"></span>",
+      "embedQueryHits": [],
+      "embedReplacements": [
+        {
+          "src": "Radioactivity.webp",
+          "skipped": "not-a-base-embed"
+        }
+      ],
       "links": [],
-      "images": [],
-      "embedSpanCount": 0,
+      "images": [
+        {
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Radioactivity.webp?1793451310378",
+          "resolvedPath": "ATTACHMENTS/BLOG/Radioactivity.webp",
+          "asset": "asset-ee734029.webp"
+        }
+      ],
+      "embedSpanCount": 1,
       "noteEmbeds": [],
       "topLevelTags": [
+        "p",
         "p",
         "p",
         "h3",
@@ -187,11 +277,29 @@
     },
     {
       "path": "ELEMENTS/BLOG/Τι μετράμε σε ένα γραφείο.md",
+      "embedSrcs": [
+        "Τι μετράμε σε ένα γραφείο.webp"
+      ],
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"Τι μετράμε σε ένα γραφείο.webp\" alt=\"Τι μετράμε σε ένα γραφείο.webp\"><img alt=\"Τι μετράμε σε ένα γραφείο.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%A4%CE%B9%20%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%BC%CE%B5%20%CF%83%CE%B5%20%CE%AD%CE%BD%CE%B1%20%CE%B3%CF%81%CE%B1%CF%86%CE%B5%CE%AF%CE%BF.webp?1793645063152\"></span>",
+      "embedQueryHits": [],
+      "embedReplacements": [
+        {
+          "src": "Τι μετράμε σε ένα γραφείο.webp",
+          "skipped": "not-a-base-embed"
+        }
+      ],
       "links": [],
-      "images": [],
-      "embedSpanCount": 0,
+      "images": [
+        {
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%A4%CE%B9%20%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%BC%CE%B5%20%CF%83%CE%B5%20%CE%AD%CE%BD%CE%B1%20%CE%B3%CF%81%CE%B1%CF%86%CE%B5%CE%AF%CE%BF.webp?1793645063152",
+          "resolvedPath": "ATTACHMENTS/BLOG/Τι μετράμε σε ένα γραφείο.webp",
+          "asset": "asset-d24c8604.webp"
+        }
+      ],
+      "embedSpanCount": 1,
       "noteEmbeds": [],
       "topLevelTags": [
+        "p",
         "p",
         "p",
         "p",
@@ -223,11 +331,29 @@
     },
     {
       "path": "ELEMENTS/BLOG/Τι μετράμε σε μια κατοικία.md",
+      "embedSrcs": [
+        "Τι μετράμε σε μια κατοικία.webp"
+      ],
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"Τι μετράμε σε μια κατοικία.webp\" alt=\"Τι μετράμε σε μια κατοικία.webp\"><img alt=\"Τι μετράμε σε μια κατοικία.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%A4%CE%B9%20%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%BC%CE%B5%20%CF%83%CE%B5%20%CE%BC%CE%B9%CE%B1%20%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1.webp?1793645030065\"></span>",
+      "embedQueryHits": [],
+      "embedReplacements": [
+        {
+          "src": "Τι μετράμε σε μια κατοικία.webp",
+          "skipped": "not-a-base-embed"
+        }
+      ],
       "links": [],
-      "images": [],
-      "embedSpanCount": 0,
+      "images": [
+        {
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%A4%CE%B9%20%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%BC%CE%B5%20%CF%83%CE%B5%20%CE%BC%CE%B9%CE%B1%20%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1.webp?1793645030065",
+          "resolvedPath": "ATTACHMENTS/BLOG/Τι μετράμε σε μια κατοικία.webp",
+          "asset": "asset-b95c387e.webp"
+        }
+      ],
+      "embedSpanCount": 1,
       "noteEmbeds": [],
       "topLevelTags": [
+        "p",
         "p",
         "p",
         "p",
@@ -266,7 +392,7 @@
         "Vitruvius.webp",
         "Galaxy.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"Fibonacci spiral black.webp\" alt=\"Fibonacci spiral black.webp\"><img alt=\"Fibonacci spiral black.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Fibonacci%20spiral%20black.webp?1792840762262\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"Fibonacci spiral black.webp\" alt=\"Fibonacci spiral black.webp\"><img alt=\"Fibonacci spiral black.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Fibonacci%20spiral%20black.webp?1792840762262\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -297,32 +423,32 @@
       "links": [],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Fibonacci%20spiral%20black.webp?1792840762262",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Fibonacci%20spiral%20black.webp?1792840762262",
           "resolvedPath": "ATTACHMENTS/BLOG/Fibonacci spiral black.webp",
           "asset": "asset-625577df.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Fibonacci%20spiral.webp?1792842207383",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Fibonacci%20spiral.webp?1792842207383",
           "resolvedPath": "ATTACHMENTS/BLOG/Fibonacci spiral.webp",
           "asset": "asset-8b5fa652.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Sunflower.webp?1792842939306",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Sunflower.webp?1792842939306",
           "resolvedPath": "ATTACHMENTS/BLOG/Sunflower.webp",
           "asset": "asset-288235c4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%9A%CE%BF%CF%87%CF%8D%CE%BB%CE%B9%CE%B1.webp?1792840424291",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/%CE%9A%CE%BF%CF%87%CF%8D%CE%BB%CE%B9%CE%B1.webp?1792840424291",
           "resolvedPath": "ATTACHMENTS/BLOG/Κοχύλια.webp",
           "asset": "asset-30f8eed5.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Vitruvius.webp?1792842989435",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Vitruvius.webp?1792842989435",
           "resolvedPath": "ATTACHMENTS/BLOG/Vitruvius.webp",
           "asset": "asset-5e6c10ee.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Galaxy.webp?1792843012907",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/BLOG/Galaxy.webp?1792843012907",
           "resolvedPath": "ATTACHMENTS/BLOG/Galaxy.webp",
           "asset": "asset-ad4732d1.webp"
         }
@@ -354,7 +480,7 @@
       "embedSrcs": [
         "akoka.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"akoka.webp\" alt=\"akoka.webp\"><img alt=\"akoka.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/akoka.webp?1792797635568\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"akoka.webp\" alt=\"akoka.webp\"><img alt=\"akoka.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/akoka.webp?1792797635568\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -365,7 +491,7 @@
       "links": [],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/akoka.webp?1792797635568",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/akoka.webp?1792797635568",
           "resolvedPath": "ATTACHMENTS/ΕΜΕΙΣ/akoka.webp",
           "asset": "asset-49490864.webp"
         }
@@ -383,7 +509,7 @@
       "embedSrcs": [
         "pervolarakis.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"pervolarakis.webp\" alt=\"pervolarakis.webp\"><img alt=\"pervolarakis.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/pervolarakis.webp?1792797546090\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"pervolarakis.webp\" alt=\"pervolarakis.webp\"><img alt=\"pervolarakis.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/pervolarakis.webp?1792797546090\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -394,7 +520,7 @@
       "links": [],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/pervolarakis.webp?1792797546090",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/pervolarakis.webp?1792797546090",
           "resolvedPath": "ATTACHMENTS/ΕΜΕΙΣ/pervolarakis.webp",
           "asset": "asset-4b3dcd94.webp"
         }
@@ -412,7 +538,7 @@
       "embedSrcs": [
         "poimenidis.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"poimenidis.webp\" alt=\"poimenidis.webp\"><img alt=\"poimenidis.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/poimenidis.webp?1792797456114\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"poimenidis.webp\" alt=\"poimenidis.webp\"><img alt=\"poimenidis.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/poimenidis.webp?1792797456114\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -423,7 +549,7 @@
       "links": [],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/poimenidis.webp?1792797456114",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/poimenidis.webp?1792797456114",
           "resolvedPath": "ATTACHMENTS/ΕΜΕΙΣ/poimenidis.webp",
           "asset": "asset-2b8be58a.webp"
         }
@@ -441,7 +567,7 @@
       "embedSrcs": [
         "kkokas.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"kkokas.webp\" alt=\"kkokas.webp\"><img alt=\"kkokas.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/kkokas.webp?1792797707083\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"kkokas.webp\" alt=\"kkokas.webp\"><img alt=\"kkokas.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/kkokas.webp?1792797707083\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -452,7 +578,7 @@
       "links": [],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/kkokas.webp?1792797707083",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/kkokas.webp?1792797707083",
           "resolvedPath": "ATTACHMENTS/ΕΜΕΙΣ/kkokas.webp",
           "asset": "asset-3a6987c1.webp"
         }
@@ -470,7 +596,7 @@
       "embedSrcs": [
         "palantas.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"palantas.webp\" alt=\"palantas.webp\"><img alt=\"palantas.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/palantas.webp?1792798400088\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"palantas.webp\" alt=\"palantas.webp\"><img alt=\"palantas.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/palantas.webp?1792798400088\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -481,7 +607,7 @@
       "links": [],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/palantas.webp?1792798400088",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/%CE%95%CE%9C%CE%95%CE%99%CE%A3/palantas.webp?1792798400088",
           "resolvedPath": "ATTACHMENTS/ΕΜΕΙΣ/palantas.webp",
           "asset": "asset-2c30ead7.webp"
         }
@@ -496,7 +622,7 @@
     },
     {
       "path": "METRISI-AKTINOVOLIAS WEBSITE/about.md",
-      "embedWaitMs": 250,
+      "embedWaitMs": 0,
       "embedMatched": 1,
       "embedExpected": 1,
       "embedSrcs": [
@@ -509,7 +635,7 @@
         "greview.webp",
         "ATTACHMENTS/SITE/logo.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [
         {
           "path": "root._children[5]._children[0]._children[6].data",
@@ -586,62 +712,62 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
           "originalSrc": "../assets/asset-2b8be58a.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-2b8be58a.webp",
-          "asset": "asset-ea758876.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-2b8be58a.webp",
+          "asset": "asset-88080429.webp"
         },
         {
           "originalSrc": "../assets/asset-4b3dcd94.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-4b3dcd94.webp",
-          "asset": "asset-52d3ed2e.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-4b3dcd94.webp",
+          "asset": "asset-d95bddad.webp"
         },
         {
           "originalSrc": "../assets/asset-2c30ead7.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-2c30ead7.webp",
-          "asset": "asset-3f343652.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-2c30ead7.webp",
+          "asset": "asset-9744bdd9.webp"
         },
         {
           "originalSrc": "../assets/asset-49490864.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-49490864.webp",
-          "asset": "asset-0eb7f77d.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-49490864.webp",
+          "asset": "asset-a01ce69a.webp"
         },
         {
           "originalSrc": "../assets/asset-3a6987c1.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-3a6987c1.webp",
-          "asset": "asset-583530d3.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-3a6987c1.webp",
+          "asset": "asset-a9e7f73c.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/greview.webp?1792799591294",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/greview.webp?1792799591294",
           "resolvedPath": "ATTACHMENTS/SITE/greview.webp",
           "asset": "asset-83fa58f9.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
@@ -676,7 +802,7 @@
         "Blog.base",
         "ATTACHMENTS/SITE/logo.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [
         {
           "path": "root._children[5]._children[0]._children[6].data",
@@ -751,72 +877,72 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
           "originalSrc": "../assets/asset-5dd19d7b.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-5dd19d7b.webp",
-          "asset": "asset-838895d1.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-5dd19d7b.webp",
+          "asset": "asset-c669ed66.webp"
         },
         {
           "originalSrc": "../assets/asset-ae2e5dc3.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-ae2e5dc3.webp",
-          "asset": "asset-3b2c338f.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-ae2e5dc3.webp",
+          "asset": "asset-78d63fe4.webp"
         },
         {
           "originalSrc": "../assets/asset-d24c8604.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-d24c8604.webp",
-          "asset": "asset-b081c01c.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-d24c8604.webp",
+          "asset": "asset-b374e7d7.webp"
         },
         {
           "originalSrc": "../assets/asset-b95c387e.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-b95c387e.webp",
-          "asset": "asset-f95c76d9.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-b95c387e.webp",
+          "asset": "asset-eb2dd706.webp"
         },
         {
           "originalSrc": "../assets/asset-c5392d63.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-c5392d63.webp",
-          "asset": "asset-a8dbbad0.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-c5392d63.webp",
+          "asset": "asset-1af997f3.webp"
         },
         {
           "originalSrc": "../assets/asset-11bff40e.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-11bff40e.webp",
-          "asset": "asset-5cb0f182.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-11bff40e.webp",
+          "asset": "asset-3754b071.webp"
         },
         {
           "originalSrc": "../assets/asset-ee734029.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-ee734029.webp",
-          "asset": "asset-0e45b734.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-ee734029.webp",
+          "asset": "asset-eaa88b07.webp"
         },
         {
           "originalSrc": "../assets/asset-625577df.webp",
-          "resolvedPath": "VaultPack Exports/vaultpack-20261115-191430/assets/asset-625577df.webp",
-          "asset": "asset-71e28d21.webp"
+          "resolvedPath": "VaultPack Exports/vaultpack-20261120-161715/assets/asset-625577df.webp",
+          "asset": "asset-d8f58d12.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
@@ -847,7 +973,7 @@
         "Motor_oil.webp",
         "Groupon.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -943,82 +1069,82 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Avin.webp?1792834136516",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Avin.webp?1792834136516",
           "resolvedPath": "ATTACHMENTS/CLIENTS/Avin.webp",
           "asset": "asset-aa409bd1.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Cyclon.webp?1792834203942",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Cyclon.webp?1792834203942",
           "resolvedPath": "ATTACHMENTS/CLIENTS/Cyclon.webp",
           "asset": "asset-84a37abf.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Navios.webp?1792834307013",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Navios.webp?1792834307013",
           "resolvedPath": "ATTACHMENTS/CLIENTS/Navios.webp",
           "asset": "asset-24a523e3.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Motor_oil.webp?1792834291932",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Motor_oil.webp?1792834291932",
           "resolvedPath": "ATTACHMENTS/CLIENTS/Motor_oil.webp",
           "asset": "asset-09a53efd.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Groupon.webp?1792834259048",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Groupon.webp?1792834259048",
           "resolvedPath": "ATTACHMENTS/CLIENTS/Groupon.webp",
           "asset": "asset-31320755.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/PnG.webp?1792834331434",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/PnG.webp?1792834331434",
           "resolvedPath": "ATTACHMENTS/CLIENTS/PnG.webp",
           "asset": "asset-5f3a859a.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/TNT.webp?1792834345645",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/TNT.webp?1792834345645",
           "resolvedPath": "ATTACHMENTS/CLIENTS/TNT.webp",
           "asset": "asset-3e70a6d1.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/%CE%95%CE%95%CE%97%CE%9B%CE%A0%CE%91%CE%A0.webp?1792834418332",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/%CE%95%CE%95%CE%97%CE%9B%CE%A0%CE%91%CE%A0.webp?1792834418332",
           "resolvedPath": "ATTACHMENTS/CLIENTS/ΕΕΗΛΠΑΠ.webp",
           "asset": "asset-19f7e0b8.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/%CE%A4%CE%A4.webp?1792834471265",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/%CE%A4%CE%A4.webp?1792834471265",
           "resolvedPath": "ATTACHMENTS/CLIENTS/ΤΤ.webp",
           "asset": "asset-5c275735.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Real%20consulting.webp?1793321774542",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/CLIENTS/Real%20consulting.webp?1793321774542",
           "resolvedPath": "ATTACHMENTS/CLIENTS/Real consulting.webp",
           "asset": "asset-ec151cab.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
@@ -1047,7 +1173,7 @@
         "ATTACHMENTS/SITE/cover5.webp",
         "ATTACHMENTS/SITE/logo.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -1103,32 +1229,32 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
@@ -1162,7 +1288,7 @@
         "ATTACHMENTS/SITE/cover5.webp",
         "ATTACHMENTS/SITE/logo.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -1218,32 +1344,32 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
@@ -1294,7 +1420,7 @@
         "ATTACHMENTS/SITE/cover5.webp",
         "ATTACHMENTS/SITE/logo.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -1362,32 +1488,32 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
@@ -1417,7 +1543,7 @@
         "ATTACHMENTS/SITE/cover5.webp",
         "ATTACHMENTS/SITE/logo.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -1473,32 +1599,32 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
@@ -1570,7 +1696,7 @@
         "ATTACHMENTS/SITE/cover5.webp",
         "ATTACHMENTS/SITE/logo.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -1626,32 +1752,32 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
@@ -1688,7 +1814,7 @@
         "ATTACHMENTS/SITE/cover5.webp",
         "ATTACHMENTS/SITE/logo.webp"
       ],
-      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
+      "firstEmbedDom": "<span class=\"internal-embed media-embed image-embed is-loaded\" src=\"ATTACHMENTS/SITE/cover1.webp\" alt=\"ATTACHMENTS/SITE/cover1.webp\"><img alt=\"ATTACHMENTS/SITE/cover1.webp\" src=\"app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244\"></span>",
       "embedQueryHits": [],
       "embedReplacements": [
         {
@@ -1744,32 +1870,32 @@
       ],
       "images": [
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover1.webp?1793320346244",
           "resolvedPath": "ATTACHMENTS/SITE/cover1.webp",
           "asset": "asset-1cdfbef4.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover2.webp?1793320346282",
           "resolvedPath": "ATTACHMENTS/SITE/cover2.webp",
           "asset": "asset-d0e44523.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover3.webp?1793320346323",
           "resolvedPath": "ATTACHMENTS/SITE/cover3.webp",
           "asset": "asset-72204dea.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover4.webp?1793320346371",
           "resolvedPath": "ATTACHMENTS/SITE/cover4.webp",
           "asset": "asset-5afbcd11.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/cover5.webp?1793320346447",
           "resolvedPath": "ATTACHMENTS/SITE/cover5.webp",
           "asset": "asset-90a8e800.webp"
         },
         {
-          "originalSrc": "app://e323b45138020ed5bb449eb1b6ceec434cb3/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
+          "originalSrc": "app://9389e44257e2fa0847bf9afdec735b9f0add/H:/My%20Drive/OBSIDIAN%20METRISI-AKTINOVOLIAS%20WEBSITE/ATTACHMENTS/SITE/logo.webp?1791821688564",
           "resolvedPath": "ATTACHMENTS/SITE/logo.webp",
           "asset": "asset-e797ff9f.webp"
         }
