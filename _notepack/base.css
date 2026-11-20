@@ -1375,8 +1375,9 @@ html[data-theme="light"] .np-note-content > p:has(span.internal-embed:nth-of-typ
 /* ---------------------------------------------------------------------
    5. BANNER — ίδιο, με ελαφρύ στρογγύλεμα
    --------------------------------------------------------------------- */
-.np-note-content > p:first-of-type:has(> span.internal-embed) {
-    /* δέσμευση χώρου πριν τρέξει το JS (CLS) */
+.np-note-content > p:first-of-type:has(span.internal-embed:nth-of-type(2)) {
+    /* δέσμευση χώρου για το banner πριν τρέξει το JS (CLS).
+       2+ εικόνες = banner· μία εικόνα = κανονική εικόνα άρθρου, δεν την κόβουμε. */
     position: relative !important;
     top: auto !important;
     z-index: auto !important;
