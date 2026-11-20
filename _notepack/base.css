@@ -1384,7 +1384,7 @@ html[data-theme="light"] .np-note-content > p:has(span.internal-embed:nth-of-typ
     aspect-ratio: 785 / 272 !important;
     overflow: hidden !important;
     display: block !important;
-    margin: 0 !important;
+    margin: 0 0 3rem !important;
     padding: 0 !important;
     border-radius: var(--b-radius) !important;
 }
@@ -1397,7 +1397,7 @@ html[data-theme="light"] .np-note-content > p:has(span.internal-embed:nth-of-typ
     display: block !important;
     width: 100% !important;
     aspect-ratio: 785 / 272 !important;
-    margin: 0 0 1.6rem !important;
+    margin: 0 0 3rem !important;
     padding: 0 !important;
     overflow: hidden !important;
     text-align: center !important;
@@ -1698,8 +1698,8 @@ body[data-slug="about"] .np-cards {
 }
 
 body[data-slug="about"] .np-card {
-    flex: 0 1 262px;
-    max-width: 262px;
+    flex: 0 1 230px;
+    max-width: 230px;
     padding: 0 !important;
     border-radius: 12px !important;
     overflow: hidden;
@@ -1724,9 +1724,9 @@ body[data-slug="about"] .np-cards-view .np-card img {
 body[data-slug="about"] .np-card:hover .np-card-cover img { transform: scale(1.04); }
 
 body[data-slug="about"] .np-card-title {
-    padding: 0.8rem 0.8rem 0.95rem !important;
+    padding: 0.7rem 0.6rem 0.85rem !important;
     text-align: center;
-    font-size: 0.95rem !important;
+    font-size: 0.9rem !important;
     font-weight: 600 !important;
     letter-spacing: -0.005em;
 }
